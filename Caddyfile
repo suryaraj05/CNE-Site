@@ -3,7 +3,7 @@
     encode zstd gzip
     header X-Robots-Tag "noindex, nofollow"
 
-    @private path /content* /includes* /node_modules* /.git* /.env* /package.json /package-lock.json /vite.config.js /Dockerfile /Caddyfile /.dockerignore /.htaccess
+    @private path /content* /includes* /node_modules* /.git* /.env* /package.json /package-lock.json /vite.config.js /Dockerfile* /Caddyfile /.dockerignore /.htaccess
     respond @private 404
 
     php_server
