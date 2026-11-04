@@ -1,0 +1,101 @@
+<?php
+return [
+    'title'       => 'Our Services — Customs & Freight UK & EU | Cargo Northeast',
+    'description' => 'Cargo Northeast services: customs clearance, air, sea and road freight, China to UK imports, Amazon FBA, baggage to India and China, house moves and storage.',
+    'breadcrumbs' => [],
+    'crumb'       => 'Our services',
+    'sections'    => [
+        [
+            'type'    => 'hero',
+            'quote'   => false,
+            'primary' => ['Get a quote', '/request-a-quote/'],
+            'eyebrow' => 'Our services',
+            'title'   => 'Logistics solutions across the UK & EU',
+            'lead'    => 'Customs clearance and air, sea and road freight for businesses across the North East, Scotland and the rest of the UK — every step handled with precision and care.',
+        ],
+        [
+            'type'    => 'prose',
+            'id'      => 'introduction',
+            'eyebrow' => 'Introduction',
+            'title'   => 'Comprehensive logistics in Scotland and the UK',
+            'html'    => '<p>Cargo Northeast Ltd specialises in <strong>comprehensive logistics solutions in Scotland and the UK</strong>, giving businesses efficient, cost-effective service. From navigating the complexities of <a href="/customs-clearance-service-uk/">customs clearance</a> to timely delivery by <a href="/road-transport-uk-eu/">road</a>, <a href="/all-airports/">air</a> and <a href="/sea-freight-newcastle-upon-tyne/">sea freight</a>, we handle every step with precision and care.</p>
+<p>Operating from key locations in the North East and Scotland — including the Port of Tyne, Teesport and Sunderland, alongside other major transport hubs — we’re equipped for both local and international logistics. Partner with Cargo Northeast to streamline your logistics and strengthen your supply chain.</p>',
+        ],
+        [
+            'type'    => 'features',
+            'id'      => 'core',
+            'columns' => 4,
+            'eyebrow' => 'Core freight services',
+            'title'   => 'Customs clearance and transport',
+            'intro'   => 'Reliable freight transport across Scotland and the UK, with the customs paperwork handled by the same team.',
+            'items'   => [
+                ['icon' => 'shield', 'title' => 'Customs clearance', 'text' => 'Documentation, tariff management and HMRC declarations through CDS for UK imports and exports.', 'href' => '/customs-clearance-service-uk/'],
+                ['icon' => 'plane', 'title' => 'Air freight', 'text' => 'Fast, precise air freight for urgent shipments through every major UK airport.', 'href' => '/all-airports/'],
+                ['icon' => 'ship', 'title' => 'Sea freight', 'text' => 'Cost-effective FCL and LCL shipping for bulk goods on international routes.', 'href' => '/sea-freight-newcastle-upon-tyne/'],
+                ['icon' => 'truck', 'title' => 'Road transport', 'text' => 'Secure, timely road freight within the UK and to and from the EU.', 'href' => '/road-transport-uk-eu/'],
+            ],
+        ],
+        [
+            'type'    => 'features',
+            'id'      => 'global',
+            'columns' => 3,
+            'eyebrow' => 'Global services',
+            'title'   => 'International freight, made simple',
+            'items'   => [
+                ['icon' => 'globe', 'title' => 'Importing from China', 'text' => 'Reliable air and sea freight for businesses importing goods from China to the UK.', 'href' => '/import-from-china/'],
+                ['icon' => 'send', 'title' => 'Air freight UK – USA', 'text' => 'Affordable transatlantic air freight with door-to-door delivery across the US.', 'href' => '/air-freight-uk-usa/'],
+                ['icon' => 'ship', 'title' => 'Sea freight imports & exports', 'text' => 'Ocean freight through Port of Tyne, Teesport and every major UK port.', 'href' => '/sea-freight-newcastle-upon-tyne/'],
+                ['icon' => 'route', 'title' => 'UK to rest of the world', 'text' => 'Air and sea freight from the UK to destinations worldwide.', 'href' => '/uk-to-restoftheworld-freight/'],
+                ['icon' => 'luggage', 'title' => 'Baggage to China', 'text' => 'Door-to-door delivery of personal belongings and commercial items to China.', 'href' => '/baggage-delivery-to-china/'],
+            ],
+        ],
+        [
+            'type'    => 'features',
+            'id'      => 'specialist',
+            'columns' => 3,
+            'eyebrow' => 'Specialist services',
+            'title'   => 'Tailored logistics for specific needs',
+            'items'   => [
+                ['icon' => 'cart', 'title' => 'Amazon FBA logistics', 'text' => 'Inventory and fulfilment support for Amazon sellers, through to delivery into fulfilment centres.', 'href' => '/amazon-fba-logistics-solutions/'],
+                ['icon' => 'plane', 'title' => 'Air & sea freight India – UK', 'text' => 'Freight between India and the UK, supported by our office in Mumbai.', 'href' => '/air-freight-india-uk/'],
+                ['icon' => 'luggage', 'title' => 'Baggage delivery to India', 'text' => 'Safe, dependable door-to-door delivery of personal belongings to India.', 'href' => '/baggage-delivery-to-india/'],
+                ['icon' => 'home', 'title' => 'House moves', 'text' => 'Affordable, stress-free house moves across Newcastle, Tyne and Wear and Durham.', 'href' => '/house-move-service-tyne-and-wear/'],
+                ['icon' => 'warehouse', 'title' => 'Safe storage', 'text' => 'Secure, flexible storage in Newcastle upon Tyne for residents, students and businesses.', 'href' => '/safe-storage-newcastle-upon-tyne-northeast/'],
+            ],
+        ],
+        [
+            'type'       => 'panel',
+            'id'         => 'customs',
+            'eyebrow'    => 'Regulatory & customs proficiency',
+            'title'      => 'Customs compliance that keeps cargo moving',
+            'paragraphs' => [
+                'Efficient customs clearance is essential to smooth shipping. We make sure every shipment complies with UK customs regulations, handling documentation, tariff management and coordination with the authorities to minimise delays and reduce costs.',
+                'We operate from Newcastle upon Tyne and serve key North East and Scottish hubs, including Port of Tyne, Teesport and Sunderland, alongside every major UK port and airport.',
+            ],
+            'checklist'  => ['HMRC & CDS declarations', 'Tariff and commodity codes', 'Duty & import VAT', 'Port of Tyne & Teesport', 'UK-wide coverage'],
+        ],
+        [
+            'type'    => 'why',
+            'eyebrow' => 'Why Cargo Northeast',
+            'title'   => 'One team for every shipment',
+            'items'   => [
+                ['title' => 'Strategic location', 'text' => 'Based at Newcastle Airport, serving the North East, Scotland and the whole of the UK.'],
+                ['title' => 'Personalised solutions', 'text' => 'Logistics tailored to your cargo, timeline and budget.'],
+                ['title' => 'Experience you can rely on', 'text' => 'Years of handling complex logistics for businesses across Scotland and the UK.'],
+                ['title' => 'Compliance done right', 'text' => 'BIFA member, trading under BIFA terms, with declarations filed correctly.'],
+            ],
+        ],
+        ['type' => 'steps'],
+        [
+            'type'  => 'faq',
+            'title' => 'Questions about our services',
+            'items' => [
+                ['q' => 'What services does Cargo Northeast offer?', 'a' => 'Customs clearance, air, sea and road freight, China to UK imports, UK to USA and worldwide shipping, Amazon FBA logistics, baggage delivery to India and China, house moves and secure storage.'],
+                ['q' => 'Which areas do you cover?', 'a' => 'We’re based at Freight Village, Newcastle Airport, and serve the North East, Scotland and the whole of the UK, with road freight to and from the EU and air and sea freight worldwide.'],
+                ['q' => 'Can you clear customs for goods I’ve shipped with another carrier?', 'a' => 'Yes. Customs declarations are submitted electronically to HMRC through CDS, so we can clear goods arriving at any UK port or airport, whoever moved the freight.'],
+                ['q' => 'How do I get a quote?', 'a' => 'Send your shipment details through our quote form or call our team. We’ll come back with a clear, no-obligation quote.'],
+            ],
+        ],
+        ['type' => 'cta', 'title' => 'Not sure which service you need?', 'text' => 'Tell us what you’re moving and where, and we’ll recommend the right solution with a clear, no-obligation quote.'],
+    ],
+];

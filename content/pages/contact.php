@@ -1,0 +1,51 @@
+<?php
+return [
+    'title'       => 'Contact Our Newcastle Customs & Freight Team | Cargo Northeast',
+    'description' => 'Contact Cargo Northeast at Freight Village, Newcastle Airport, or our Mumbai office. Call, email or send a message about customs clearance, freight or moving.',
+    'breadcrumbs' => [],
+    'crumb'       => 'Contact',
+    'sections'    => [
+        [
+            'type'      => 'hero',
+            'eyebrow'   => 'Contact us',
+            'title'     => 'Talk to our customs and freight team',
+            'lead'      => 'Questions about customs clearance, shipping, moving or storage? Call, email or send us a message and the right person will get back to you.',
+            'primary'   => ['Request a quote', '/request-a-quote/'],
+            'secondary' => ['Call +44 7354 595649', 'tel:+447354595649'],
+            'note'      => 'Open Monday to Saturday, 9am–5pm',
+        ],
+        [
+            'type'     => 'form',
+            'id'       => 'message',
+            'eyebrow'    => 'Contact details',
+            'title'      => 'How can we help?',
+            'intro'      => 'We’re here to help with all your logistics, moving and storage needs across Newcastle, Tyne and Wear and beyond. Whether you have a question, need a custom quote or want to discuss your requirements, contact us by phone, email or the form.',
+            'contact'    => true,
+            'form_title' => 'Leave your message',
+            'endpoint'   => '/enquiries',
+            'success'    => '/thank-you/',
+            'submit'     => 'Send message',
+            'form_id'    => 'contact',
+            'fields'     => [
+                ['name' => 'name', 'label' => 'Name', 'type' => 'text', 'required' => true, 'half' => true, 'autocomplete' => 'name'],
+                ['name' => 'email', 'label' => 'Email', 'type' => 'email', 'required' => true, 'half' => true, 'autocomplete' => 'email', 'placeholder' => 'you@company.co.uk'],
+                ['name' => 'phone', 'label' => 'Phone', 'type' => 'tel', 'half' => true, 'autocomplete' => 'tel'],
+                ['name' => 'company', 'label' => 'Company', 'type' => 'text', 'half' => true, 'autocomplete' => 'organization'],
+                ['name' => 'subject', 'label' => 'Subject', 'type' => 'text', 'half' => true],
+                ['name' => 'enquiry_type', 'label' => 'Enquiry about', 'type' => 'select', 'required' => true, 'half' => true, 'options' => ['Customs Clearance', 'Shipping', 'Both Shipping & Customs', 'Import from China', 'Baggage to India', 'Logistics Advice', 'House Move']],
+                ['name' => 'message', 'label' => 'Message', 'type' => 'textarea', 'required' => true, 'placeholder' => 'Tell us what you need help with'],
+            ],
+        ],
+        ['type' => 'map', 'id' => 'map', 'eyebrow' => 'Find us', 'title' => 'Our Newcastle office'],
+        [
+            'type'  => 'faq',
+            'title' => 'Contact questions',
+            'items' => [
+                ['q' => 'Where is your UK office?', 'a' => 'Our UK office is at Unit 13–16, Airport Freightway, Freight Village, Newcastle International Airport, Newcastle upon Tyne NE13 8BH. We serve customers across Newcastle, Tyne and Wear, North East England and the rest of the UK.'],
+                ['q' => 'What are your opening hours?', 'a' => 'We’re open Monday to Saturday, 9am to 5pm, and closed on Sundays.'],
+                ['q' => 'Do you have an office in India?', 'a' => 'Yes. Cargo Northeast (India) Private Limited is based in Borivali (West), Mumbai 400092, and can be reached on +91 99203 60122.'],
+                ['q' => 'How quickly will you reply?', 'a' => 'We aim to respond to every enquiry within 24 hours. For urgent shipments, call us on +44 7354 595649.'],
+            ],
+        ],
+    ],
+];

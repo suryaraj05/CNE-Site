@@ -1,0 +1,70 @@
+<?php
+return [
+    'title'       => 'Our Mission, Vision & Values | Cargo Northeast',
+    'description' => 'The mission, vision and values behind Cargo Northeast: affordable, efficient, accessible and sustainable cargo solutions for North East England and the UK.',
+    'breadcrumbs' => [['About us', '/customs-clearance-logistics-newcastle-northeast-england/']],
+    'crumb'       => 'Mission, vision & values',
+    'sections'    => [
+        [
+            'type'    => 'hero',
+            'eyebrow' => 'Mission, vision & values',
+            'title'   => 'What drives Cargo Northeast',
+            'lead'    => 'Redefining logistics in North East England through affordability, efficiency, accessibility and sustainability.',
+        ],
+        [
+            'type'    => 'features',
+            'id'      => 'mission',
+            'dark'    => true,
+            'columns' => 3,
+            'eyebrow' => 'Mission & vision',
+            'title'   => 'Where we’re heading',
+            'items'   => [
+                ['icon' => 'eye', 'title' => 'Our vision', 'text' => 'To be the foremost provider of cargo solutions in North East England and the UK, redefining excellence through affordability, efficiency, accessibility and sustainability.'],
+                ['icon' => 'target', 'title' => 'Our mission', 'text' => 'To transform the cargo industry in North East England by delivering exceptional, innovative and customer-focused services.'],
+                ['icon' => 'flag', 'title' => 'Our slogan', 'text' => 'Redefining logistics with affordability, efficiency and sustainability — Cargo Northeast leads the way in North East UK cargo solutions.'],
+            ],
+        ],
+        [
+            'type'    => 'features',
+            'id'      => 'values',
+            'columns' => 3,
+            'eyebrow' => 'Our values',
+            'title'   => 'How we work',
+            'items'   => [
+                ['icon' => 'message', 'title' => 'Respect', 'text' => 'Clients, partners and colleagues are treated with dignity in every interaction, building trust and open communication.'],
+                ['icon' => 'star', 'title' => 'Customer-centric', 'text' => 'Every decision starts with our clients, and our services are tailored to their specific needs.'],
+                ['icon' => 'shield', 'title' => 'Integrity', 'text' => 'Honesty, transparency and high ethical standards guide everything we do.'],
+                ['icon' => 'users', 'title' => 'Diversity', 'text' => 'Embracing different perspectives helps us innovate and serve customers around the world better.'],
+                ['icon' => 'globe', 'title' => 'Sustainability', 'text' => 'We adopt greener operating practices to reduce our carbon footprint and our impact on the environment.'],
+                ['icon' => 'route', 'title' => 'Flexible and agile', 'text' => 'We adapt quickly to changing market conditions so our solutions stay ahead of what customers need.'],
+            ],
+        ],
+        [
+            'type'     => 'why',
+            'numbered' => true,
+            'eyebrow'  => 'Our commitments',
+            'title'    => 'We are committed to',
+            'items'    => [
+                ['title' => 'Affordability', 'text' => 'Cost-effective solutions that help businesses of every size thrive in a competitive market.'],
+                ['title' => 'Efficiency', 'text' => 'Modern tools and well-organised processes for swift cargo handling, storage and transport.'],
+                ['title' => 'Value creation', 'text' => 'Practical insight and streamlined supply chains that improve our clients’ profitability.'],
+                ['title' => 'Easy access and tracking', 'text' => 'Simple online tools and responsive support for booking and tracking shipments.'],
+                ['title' => 'Sustainability', 'text' => 'Reducing the environmental impact of our operations.'],
+                ['title' => 'Collaboration', 'text' => 'Strong partnerships with stakeholders and local communities for mutual growth.'],
+                ['title' => 'Employee growth', 'text' => 'An inclusive workplace where our people can develop, innovate and contribute.'],
+                ['title' => 'Continuous improvement', 'text' => 'Regularly reviewing our services and processes to keep raising the standard.'],
+            ],
+        ],
+        [
+            'type'    => 'features',
+            'id'      => 'explore',
+            'eyebrow' => 'Explore',
+            'title'   => 'See our values in action',
+            'items'   => [
+                ['icon' => 'shield', 'title' => 'Customs clearance services', 'text' => 'HMRC declarations through CDS for UK imports and exports, handled by our Newcastle team.', 'href' => '/customs-clearance-service-uk/'],
+                ['icon' => 'ship', 'title' => 'Sea freight forwarding', 'text' => 'Cost-effective FCL and LCL sea freight through the Port of Tyne, Teesport and every major UK port.', 'href' => '/sea-freight-newcastle-upon-tyne/'],
+            ],
+        ],
+        ['type' => 'cta', 'title' => 'Put our values to work on your next shipment'],
+    ],
+];
