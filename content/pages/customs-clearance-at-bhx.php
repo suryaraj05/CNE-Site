@@ -33,7 +33,7 @@ return [
             'eyebrow'    => 'Customs at Birmingham Airport',
             'title'      => 'Prepare early, clear smoothly',
             'paragraphs' => [
-                'Customs controls in the UK are overseen by HMRC. Whenever goods are imported into or exported from the UK through Birmingham Airport, the shipment must be declared — mostly through the Customs Declaration Service (CDS) — with complete and accurate information.',
+                'Customs controls in the UK are overseen by HMRC. Whenever goods are imported into or exported from the UK through Birmingham Airport, the shipment must be declared - mostly through the Customs Declaration Service (CDS) - with complete and accurate information.',
                 'Air freight is usually chosen when speed matters, so a hold-up caused by missing documents can affect delivery schedules, customer commitments and the wider supply chain. That’s why we look at customs from the moment you plan the shipment, not when the cargo reaches the airport.',
             ],
             'checklist'  => ['HMRC & CDS declarations', 'Commodity codes', 'EORI number guidance', 'Duty & import VAT', 'Postponed VAT accounting'],

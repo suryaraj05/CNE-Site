@@ -1,17 +1,18 @@
 <?php
 return [
-    'title'       => 'Global Logistics Services — Air, Sea & Road | Cargo Northeast',
+    'title'       => 'Global Logistics Services - Air, Sea & Road | Cargo Northeast',
     'description' => 'Global logistics from Newcastle: China to UK imports, UK to USA air freight, sea freight, worldwide shipping, baggage to China and UK airport customs.',
     'breadcrumbs' => [],
     'crumb'       => 'Global services',
     'sections'    => [
         [
             'type'    => 'hero',
+            'image'   => asset_img('cargo'),
             'quote'   => false,
             'primary' => ['Get a quote', '/request-a-quote/'],
             'eyebrow' => 'Global services',
             'title'   => 'Global logistics solutions for your business',
-            'lead'    => 'Customs clearance plus air, sea and road freight that connect UK businesses with the world — specialising in China to UK freight, international shipping and supply chain optimisation.',
+            'lead'    => 'Customs clearance plus air, sea and road freight that connect UK businesses with the world - specialising in China to UK freight, international shipping and supply chain optimisation.',
         ],
         [
             'type'    => 'features',
@@ -21,12 +22,12 @@ return [
             'title'   => 'Freight to and from anywhere',
             'intro'   => 'Tailored, reliable international logistics with a focus on precision and affordability.',
             'items'   => [
-                ['icon' => 'globe', 'title' => 'Importing from China', 'text' => 'Affordable air and sea freight from China, FCL or LCL, cleared at every major UK port.', 'href' => '/import-from-china/'],
-                ['icon' => 'plane', 'title' => 'Air freight UK – USA', 'text' => 'Fast transatlantic air cargo from Heathrow, Manchester and Birmingham to major US cities.', 'href' => '/air-freight-uk-usa/'],
-                ['icon' => 'ship', 'title' => 'Sea freight', 'text' => 'FCL and LCL imports and exports through Port of Tyne, Teesport, Felixstowe, Southampton and Liverpool.', 'href' => '/sea-freight-newcastle-upon-tyne/'],
-                ['icon' => 'route', 'title' => 'UK to rest of the world', 'text' => 'Express and consolidated air, plus FCL and LCL sea freight, to destinations worldwide.', 'href' => '/uk-to-restoftheworld-freight/'],
-                ['icon' => 'luggage', 'title' => 'Baggage to China', 'text' => 'Door-to-door delivery of personal belongings and commercial items from the UK to China.', 'href' => '/baggage-delivery-to-china/'],
-                ['icon' => 'send', 'title' => 'UK airports', 'text' => 'Air freight and customs clearance at Heathrow, Manchester, East Midlands and every major UK airport.', 'href' => '/all-airports/'],
+                ['image' => asset_img('china'), 'icon' => 'globe', 'title' => 'Importing from China', 'text' => 'Affordable air and sea freight from China, FCL or LCL, cleared at every major UK port.', 'href' => '/import-from-china/'],
+                ['image' => asset_img('air'), 'icon' => 'plane', 'title' => 'Air freight UK – USA', 'text' => 'Fast transatlantic air cargo from Heathrow, Manchester and Birmingham to major US cities.', 'href' => '/air-freight-uk-usa/'],
+                ['image' => asset_img('sea'), 'icon' => 'ship', 'title' => 'Sea freight', 'text' => 'FCL and LCL imports and exports through Port of Tyne, Teesport, Felixstowe, Southampton and Liverpool.', 'href' => '/sea-freight-newcastle-upon-tyne/'],
+                ['image' => asset_img('worldwide'), 'icon' => 'route', 'title' => 'UK to rest of the world', 'text' => 'Express and consolidated air, plus FCL and LCL sea freight, to destinations worldwide.', 'href' => '/uk-to-restoftheworld-freight/'],
+                ['image' => asset_img('cargo'), 'icon' => 'luggage', 'title' => 'Baggage to China', 'text' => 'Door-to-door delivery of personal belongings and commercial items from the UK to China.', 'href' => '/baggage-delivery-to-china/'],
+                ['image' => asset_img('airport'), 'icon' => 'send', 'title' => 'UK airports', 'text' => 'Air freight and customs clearance at Heathrow, Manchester, East Midlands and every major UK airport.', 'href' => '/all-airports/'],
             ],
         ],
         [
@@ -36,9 +37,9 @@ return [
             'title'      => 'End-to-end logistics, across borders',
             'paragraphs' => [
                 'From customs clearance to air, sea and road freight, we make sure your cargo moves smoothly across borders. Our China to UK and global shipping expertise simplifies even the most complex supply chains.',
-                'Because the same team handles your freight and your customs, you get one point of contact, consistent advice and fewer hand-offs — so your business can compete confidently in international markets.',
+                'Because the same team handles your freight and your customs, you get one point of contact, consistent advice and fewer hand-offs - so your business can compete confidently in international markets.',
             ],
-            'checklist'  => ['Customs clearance', 'Air freight', 'Sea freight — FCL & LCL', 'Road freight UK & EU', 'Door-to-door delivery'],
+            'checklist'  => ['Customs clearance', 'Air freight', 'Sea freight - FCL & LCL', 'Road freight UK & EU', 'Door-to-door delivery'],
         ],
         [
             'type'  => 'steps',

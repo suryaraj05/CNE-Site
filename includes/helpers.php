@@ -6,6 +6,45 @@ function e(?string $value): string
     return htmlspecialchars($value ?? '', ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
 }
 
+function page_override_dir(): string
+{
+    return __DIR__ . '/../storage/overrides';
+}
+
+function load_page_override(string $slug): array
+{
+    $path = page_override_dir() . "/$slug.json";
+    if (!is_file($path)) {
+        return [];
+    }
+    $data = json_decode((string) file_get_contents($path), true);
+    return is_array($data) ? $data : [];
+}
+
+/** Merge admin JSON overrides into a loaded page array. */
+function apply_page_overrides(array $page, string $slug): array
+{
+    $over = load_page_override($slug);
+    if ($over === []) {
+        return $page;
+    }
+    if (!empty($over['title'])) {
+        $page['title'] = $over['title'];
+    }
+    if (!empty($over['description'])) {
+        $page['description'] = $over['description'];
+    }
+    if (!empty($over['hero']) && !empty($page['sections'])) {
+        foreach ($page['sections'] as $i => $section) {
+            if (($section['type'] ?? '') === 'hero') {
+                $page['sections'][$i] = array_merge($section, $over['hero']);
+                break;
+            }
+        }
+    }
+    return $page;
+}
+
 function asset(string $path): string
 {
     $file = __DIR__ . '/../dist/' . $path;
@@ -68,19 +107,28 @@ function section_id(array $s): string
     return empty($s['id']) ? '' : ' id="' . e($s['id']) . '"';
 }
 
+/** Soft scroll-reveal: up|left|right|zoom. */
+function reveal(string $effect = 'up', int $delayMs = 0): string
+{
+    return ' data-reveal="' . e($effect) . '"' . ($delayMs > 0 ? ' style="--reveal-delay:' . $delayMs . 'ms"' : '');
+}
+
 /** Eyebrow + h2 + optional intro, shared by most sections. */
 function section_heading(array $s, string $align = 'left', bool $dark = false): void
 {
     $center = $align === 'center';
+    echo '<div' . reveal('up') . ($center ? ' class="text-center"' : '') . '>';
     if (!empty($s['eyebrow'])) {
-        echo '<p class="text-xs font-semibold tracking-[0.14em] uppercase ' . ($dark ? 'text-blue-200' : 'text-navy') . '">' . e($s['eyebrow']) . '</p>';
+        echo '<p class="text-[13px] font-medium ' . ($dark ? 'text-white/75' : 'text-navy/80') . '">' . e($s['eyebrow']) . '</p>';
+        echo '<span aria-hidden="true" class="mt-3 block h-px w-9 ' . ($dark ? 'bg-white/35' : 'bg-navy/35') . ($center ? ' mx-auto' : '') . '"></span>';
     }
     if (!empty($s['title'])) {
-        echo '<h2 class="mt-3 text-3xl leading-tight font-bold tracking-[-0.025em] text-balance sm:text-4xl ' . ($dark ? 'text-white' : 'text-ink') . '">' . e($s['title']) . '</h2>';
+        echo '<h2 class="' . (!empty($s['eyebrow']) ? 'mt-5' : '') . ' text-[2rem] leading-[1.15] font-bold tracking-[-0.03em] text-balance sm:text-[2.5rem] ' . ($dark ? 'text-white' : 'text-ink') . '">' . e($s['title']) . '</h2>';
     }
     if (!empty($s['intro'])) {
-        echo '<p class="mt-4 max-w-2xl text-[17px] leading-relaxed ' . ($dark ? 'text-blue-100/80' : 'text-muted') . ($center ? ' mx-auto' : '') . '">' . e($s['intro']) . '</p>';
+        echo '<p class="mt-4 max-w-2xl text-lg leading-relaxed text-pretty ' . ($dark ? 'text-white/80' : 'text-muted') . ($center ? ' mx-auto' : '') . '">' . e($s['intro']) . '</p>';
     }
+    echo '</div>';
 }
 
 /**

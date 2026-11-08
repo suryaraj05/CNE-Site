@@ -12,7 +12,7 @@ return [
             'quote_placeholder' => 'e.g. Houston → Aberdeen (ABZ)',
             'eyebrow'           => 'Customs agent Aberdeen',
             'title'             => 'Customs clearance services in Aberdeen',
-            'lead'              => 'Import and export declarations, documentation and duty and VAT guidance for Aberdeen businesses — so your shipments meet customs requirements without avoidable delays.',
+            'lead'              => 'Import and export declarations, documentation and duty and VAT guidance for Aberdeen businesses - so your shipments meet customs requirements without avoidable delays.',
         ],
         ['type' => 'trust'],
         [
@@ -35,7 +35,7 @@ return [
             'title'      => 'Customs clearance in Aberdeen, explained',
             'paragraphs' => [
                 'HMRC oversees UK customs and collects duty and VAT. Import and export declarations are submitted through the Customs Declaration Service (CDS), and businesses generally need an EORI number to carry out customs activity in Great Britain.',
-                'Any duty and import VAT due depends on the commodity classification, customs value, origin and any reliefs that apply. Providing accurate shipment information from the outset — a commercial invoice, packing list, commodity codes and origin details — is the best way to avoid errors and preventable delays.',
+                'Any duty and import VAT due depends on the commodity classification, customs value, origin and any reliefs that apply. Providing accurate shipment information from the outset - a commercial invoice, packing list, commodity codes and origin details - is the best way to avoid errors and preventable delays.',
             ],
             'checklist'  => ['Import & export declarations via CDS', 'EORI number guidance', 'Commodity codes', 'Customs value & origin', 'Duty & import VAT'],
         ],
@@ -64,9 +64,9 @@ return [
             'type'  => 'faq',
             'title' => 'Aberdeen customs questions',
             'items' => [
-                ['q' => 'What do customs clearance services in Aberdeen include?', 'a' => 'Preparing and submitting the customs declaration, checking supporting documents and dealing with any import or export requirements — including HMRC procedures, CDS, EORI numbers, duty and VAT.'],
+                ['q' => 'What do customs clearance services in Aberdeen include?', 'a' => 'Preparing and submitting the customs declaration, checking supporting documents and dealing with any import or export requirements - including HMRC procedures, CDS, EORI numbers, duty and VAT.'],
                 ['q' => 'Can you help with airport customs clearance in Aberdeen?', 'a' => 'Yes. We can handle declarations and supporting documents for air freight through Aberdeen Airport. Contact us with your shipment details to confirm what your cargo needs.'],
-                ['q' => 'Do I need an EORI number?', 'a' => 'Businesses generally need an EORI number to import goods into or export goods from Great Britain. Check your EORI details are valid before you ship — we can advise if you’re unsure.'],
+                ['q' => 'Do I need an EORI number?', 'a' => 'Businesses generally need an EORI number to import goods into or export goods from Great Britain. Check your EORI details are valid before you ship - we can advise if you’re unsure.'],
                 ['q' => 'What documents are needed for import and export declarations?', 'a' => 'Commonly a commercial invoice, packing list, commodity codes, goods description, customs value, country of origin and transport details. Some goods also need licences or certificates.'],
             ],
         ],

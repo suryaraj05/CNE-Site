@@ -3,7 +3,8 @@ declare(strict_types=1);
 
 const SITE_NAME       = 'Cargo Northeast';
 const SITE_LEGAL_NAME = 'Cargo Northeast Ltd';
-const SITE_URL        = 'https://cargonortheast.com';
+// Override with CNE_SITE_URL on preview/staging hosts (e.g. Fly).
+define('SITE_URL', rtrim(getenv('CNE_SITE_URL') ?: 'https://cargonortheast.com', '/'));
 const PHONE_DISPLAY   = '+44 7354 595649';
 const PHONE_E164      = '+447354595649';
 const EMAIL           = 'opsuk@cargonortheast.com';

@@ -12,7 +12,7 @@ return [
             'quote_placeholder' => 'e.g. Zurich → London City (LCY)',
             'eyebrow'           => 'Air freight services, London City Airport',
             'title'             => 'Air freight services at London City Airport (LCY)',
-            'lead'              => 'For urgent, high-value and time-critical consignments that need to reach central London fast — handled from booking to customs release and final delivery.',
+            'lead'              => 'For urgent, high-value and time-critical consignments that need to reach central London fast - handled from booking to customs release and final delivery.',
         ],
         ['type' => 'trust'],
         [
@@ -73,6 +73,6 @@ return [
                 ['q' => 'Do I need an EORI number?', 'a' => 'In most cases, yes, if you move goods between Great Britain and non-UK countries. Businesses moving goods to or from Northern Ireland may need an XI EORI number. We can advise on whether you need one and how to apply.'],
             ],
         ],
-        ['type' => 'cta', 'title' => 'Urgent freight into London City?', 'text' => 'Send us the origin, destination, weight, dimensions, goods description and timeline — we’ll respond with a tailored quote.'],
+        ['type' => 'cta', 'title' => 'Urgent freight into London City?', 'text' => 'Send us the origin, destination, weight, dimensions, goods description and timeline - we’ll respond with a tailored quote.'],
     ],
 ];

@@ -4,7 +4,7 @@ declare(strict_types=1);
 const CONTENT_DIR = __DIR__ . '/../content';
 
 /** Sections rendered full-bleed; everything else sits in the padded content column. */
-const BAND_SECTIONS = ['hero', 'trust'];
+const BAND_SECTIONS = ['hero', 'trust', 'cta', 'features', 'steps', 'testimonials'];
 
 function render_page(array $page): void
 {
@@ -23,7 +23,7 @@ function render_page(array $page): void
     foreach ($page['sections'] as $s) {
         $band = in_array($s['type'], BAND_SECTIONS, true);
         if (!$band && !$inBody) {
-            echo '<div class="space-y-20 pt-16 pb-20 sm:space-y-24 sm:pt-20 sm:pb-24">';
+            echo '<div class="space-y-24 pt-16 pb-24 sm:space-y-28 sm:pt-20 sm:pb-28">';
             $inBody = true;
         } elseif ($band && $inBody) {
             echo '</div>';

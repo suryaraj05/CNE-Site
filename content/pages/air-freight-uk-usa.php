@@ -1,6 +1,6 @@
 <?php
 return [
-    'title'       => 'Air Freight UK to USA — Fast, Affordable | Cargo Northeast',
+    'title'       => 'Air Freight UK to USA - Fast, Affordable | Cargo Northeast',
     'description' => 'Affordable UK to USA air freight from Heathrow, Manchester and Birmingham to New York, Los Angeles, Chicago and Miami. Door-to-door, customs handled.',
     'breadcrumbs' => [['Global services', '/services/']],
     'crumb'       => 'Air freight UK – USA',
@@ -12,7 +12,7 @@ return [
             'quote_placeholder' => 'e.g. Manchester → New York (JFK)',
             'eyebrow'           => 'Transatlantic air freight',
             'title'             => 'Affordable UK to USA air freight',
-            'lead'              => 'Fast, reliable air cargo between the UK and the USA — from urgent business shipments to high-value goods, with customs and documentation handled for you.',
+            'lead'              => 'Fast, reliable air cargo between the UK and the USA - from urgent business shipments to high-value goods, with customs and documentation handled for you.',
         ],
         ['type' => 'trust'],
         [
@@ -34,7 +34,7 @@ return [
             'title'      => 'From major UK hubs to major US cities',
             'paragraphs' => [
                 'We ship from key UK air cargo hubs, including London Heathrow, Manchester and Birmingham, to major US destinations such as New York, Los Angeles, Chicago and Miami.',
-                'Our team manages each step from departure to delivery: UK export declarations, the documentation US customs requires, and tracking with updates at every major milestone — so you always know where your cargo is.',
+                'Our team manages each step from departure to delivery: UK export declarations, the documentation US customs requires, and tracking with updates at every major milestone - so you always know where your cargo is.',
             ],
             'checklist'  => ['London Heathrow', 'Manchester', 'Birmingham', 'UK export declarations', 'US customs documentation'],
         ],

@@ -12,7 +12,7 @@ return [
             'quote_placeholder' => 'e.g. Hong Kong → East Midlands (EMA)',
             'eyebrow'           => 'East Midlands air freight customs',
             'title'             => 'Customs clearance at East Midlands Airport',
-            'lead'              => 'Import and export declarations for air freight through East Midlands Airport (EMA) — prepared properly, filed with HMRC and kept moving, so your cargo isn’t left waiting at the airport.',
+            'lead'              => 'Import and export declarations for air freight through East Midlands Airport (EMA) - prepared properly, filed with HMRC and kept moving, so your cargo isn’t left waiting at the airport.',
         ],
         ['type' => 'trust'],
         [
@@ -35,7 +35,7 @@ return [
             'title'      => 'Why getting customs right matters',
             'paragraphs' => [
                 'Goods entering or leaving the UK through East Midlands Airport must be declared to HMRC through the Customs Declaration Service (CDS). A declaration missing information or carrying the wrong detail can trigger queries that hold your cargo at the airport.',
-                'Those delays ripple down the supply chain: stock lands late, customers wait and time-sensitive goods sit in storage. We review what you’re moving before it reaches the customs stage and tell you up front what’s needed — so the clearance itself is routine.',
+                'Those delays ripple down the supply chain: stock lands late, customers wait and time-sensitive goods sit in storage. We review what you’re moving before it reaches the customs stage and tell you up front what’s needed - so the clearance itself is routine.',
             ],
             'checklist'  => ['HMRC & CDS declarations', 'EORI number guidance', 'Commodity information', 'Duty & import VAT', 'Invoice & packing list checks'],
         ],
@@ -44,7 +44,7 @@ return [
             'eyebrow'     => 'Why Cargo Northeast',
             'title'       => 'Practical customs support for EMA freight',
             'items'       => [
-                ['title' => 'Advice before you ship', 'text' => 'We look at your goods first, then explain exactly what the shipment needs — no generic checklists.'],
+                ['title' => 'Advice before you ship', 'text' => 'We look at your goods first, then explain exactly what the shipment needs - no generic checklists.'],
                 ['title' => 'Imports and exports', 'text' => 'One team for declarations in both directions, whether you ship regularly or occasionally.'],
                 ['title' => 'BIFA member', 'text' => 'We trade under BIFA terms and file HMRC declarations through CDS correctly.'],
             ],
@@ -69,11 +69,11 @@ return [
             'title' => 'East Midlands Airport customs questions',
             'items' => [
                 ['q' => 'What does customs clearance at East Midlands Airport involve?', 'a' => 'It’s the process of declaring goods to HMRC so they can legally enter or leave the UK. For air freight at EMA, declarations are submitted through CDS and include what the goods are, their value, origin and destination.'],
-                ['q' => 'What documents are usually needed?', 'a' => 'Commonly a commercial invoice, a packing list and the air waybill, plus your EORI number. Some goods need licences or certificates — we’ll tell you what your cargo requires.'],
+                ['q' => 'What documents are usually needed?', 'a' => 'Commonly a commercial invoice, a packing list and the air waybill, plus your EORI number. Some goods need licences or certificates - we’ll tell you what your cargo requires.'],
                 ['q' => 'Will I pay customs duty and VAT?', 'a' => 'Imported goods may be subject to customs duty and import VAT depending on the type of goods, their value and country of origin. Contact us before shipping and we’ll explain what is likely to apply.'],
                 ['q' => 'How can I avoid delays at EMA?', 'a' => 'Most delays come from missing or inconsistent information. Send documents early, make sure invoice details match the goods and have your EORI number ready.'],
             ],
         ],
-        ['type' => 'cta', 'title' => 'Shipping through East Midlands Airport?', 'text' => 'Tell us what you’re moving, where it’s going and when it’s expected — we’ll come back with a clear, no-obligation quote.'],
+        ['type' => 'cta', 'title' => 'Shipping through East Midlands Airport?', 'text' => 'Tell us what you’re moving, where it’s going and when it’s expected - we’ll come back with a clear, no-obligation quote.'],
     ],
 ];

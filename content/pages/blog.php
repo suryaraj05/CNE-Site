@@ -1,7 +1,7 @@
 <?php
 return [
     'title'       => 'Industry Updates: UK Customs & Trade News | Cargo Northeast',
-    'description' => 'UK customs, import and trade updates from Cargo Northeast — regulatory changes, border checks and trade measures that affect importers and exporters.',
+    'description' => 'UK customs, import and trade updates from Cargo Northeast - regulatory changes, border checks and trade measures that affect importers and exporters.',
     'breadcrumbs' => [],
     'crumb'       => 'Blog',
     'sections'    => [
@@ -10,7 +10,7 @@ return [
             'quote'     => false,
             'eyebrow'   => 'Blog',
             'title'     => 'Industry updates',
-            'lead'      => 'Customs, import and trade news that affects UK importers and exporters — explained by our Newcastle customs team.',
+            'lead'      => 'Customs, import and trade news that affects UK importers and exporters - explained by our Newcastle customs team.',
             'primary'   => false,
             'secondary' => false,
             'note'      => false,

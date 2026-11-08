@@ -7,6 +7,7 @@ return [
     'sections'    => [
         [
             'type'    => 'hero',
+            'image'   => asset_img('about'),
             'quote'   => false,
             'eyebrow' => 'Where we work',
             'title'   => 'Our locations',
@@ -35,8 +36,8 @@ return [
             'eyebrow' => 'Our offices',
             'title'   => 'Talk to the team',
             'items'   => [
-                ['icon' => 'building', 'title' => 'UK office — Newcastle', 'text' => 'Cargo Northeast Ltd, Freight Village, Newcastle Airport, NE13 8BH. Phone +44 7354 595649 · opsuk@cargonortheast.com'],
-                ['icon' => 'globe', 'title' => 'India office — Mumbai', 'text' => 'Borivali (West), Mumbai 400092. Phone +91 99203 60122'],
+                ['icon' => 'building', 'title' => 'UK office - Newcastle', 'text' => 'Cargo Northeast Ltd, Freight Village, Newcastle Airport, NE13 8BH. Phone +44 7354 595649 · opsuk@cargonortheast.com'],
+                ['icon' => 'globe', 'title' => 'India office - Mumbai', 'text' => 'Borivali (West), Mumbai 400092. Phone +91 99203 60122'],
             ],
         ],
         [

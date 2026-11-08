@@ -12,7 +12,7 @@ return [
             'quote_placeholder' => 'e.g. Delhi → Manchester (MAN)',
             'eyebrow'           => 'Air freight Manchester',
             'title'             => 'Customs clearance in Manchester',
-            'lead'              => 'Air freight and customs clearance through Manchester Airport (MAN), planned together from the start — so time-sensitive cargo isn’t held up by a missing detail.',
+            'lead'              => 'Air freight and customs clearance through Manchester Airport (MAN), planned together from the start - so time-sensitive cargo isn’t held up by a missing detail.',
         ],
         ['type' => 'trust'],
         [
@@ -20,7 +20,7 @@ return [
             'id'      => 'services',
             'eyebrow' => 'What we handle',
             'title'   => 'Freight and customs for Manchester traders',
-            'intro'   => 'Manchester is a major centre for businesses trading internationally. Getting cargo on a flight is only part of the journey — customs has to be right before imports are released or exports can leave.',
+            'intro'   => 'Manchester is a major centre for businesses trading internationally. Getting cargo on a flight is only part of the journey - customs has to be right before imports are released or exports can leave.',
             'items'   => [
                 ['icon' => 'send', 'title' => 'Air freight Manchester', 'text' => 'Time-sensitive cargo, commercial shipments, spare parts, samples and equipment flown in and out of MAN.'],
                 ['icon' => 'box', 'title' => 'Import declarations', 'text' => 'Goods described, classified and valued correctly so they can be released and continue to their destination.'],
@@ -35,7 +35,7 @@ return [
             'title'      => 'Customs clearance in Manchester, made simple',
             'paragraphs' => [
                 'Every shipment crossing the UK border must be declared to HMRC, which oversees customs controls and collects duty and VAT. Most declarations go through the Customs Declaration Service (CDS). An import declaration covers goods entering the UK; an export declaration covers goods leaving it.',
-                'Both typically include a description of the goods, commodity code, value, country of origin and transport details, and in most cases the business needs an EORI number. Duty and import VAT depend on the commodity code, value and origin — and VAT-registered businesses may be able to use postponed VAT accounting.',
+                'Both typically include a description of the goods, commodity code, value, country of origin and transport details, and in most cases the business needs an EORI number. Duty and import VAT depend on the commodity code, value and origin - and VAT-registered businesses may be able to use postponed VAT accounting.',
             ],
             'checklist'  => ['Import & export declarations via CDS', 'Commodity codes', 'Country of origin & value', 'EORI number guidance', 'Postponed VAT accounting'],
         ],

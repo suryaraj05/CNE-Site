@@ -38,7 +38,7 @@ return [
             'title'      => 'Imports into, and exports from, Stansted',
             'paragraphs' => [
                 'Goods entering or leaving the UK through London Stansted must be declared to HMRC through the Customs Declaration Service (CDS). For imports, that means accurate commercial invoices, packing details, goods descriptions, commodity information and values from the start.',
-                'Exports need attention too: the right export procedures and information must be dealt with before cargo leaves the country. Having paperwork and shipment details ready before the goods reach the airport is the simplest way to avoid delays — particularly if you don’t deal with UK customs regularly.',
+                'Exports need attention too: the right export procedures and information must be dealt with before cargo leaves the country. Having paperwork and shipment details ready before the goods reach the airport is the simplest way to avoid delays - particularly if you don’t deal with UK customs regularly.',
             ],
             'checklist'  => ['Import & export declarations', 'EORI number guidance', 'Duty & import VAT', 'Commodity information', 'Packing & invoice details'],
         ],

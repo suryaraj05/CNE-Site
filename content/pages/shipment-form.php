@@ -18,7 +18,7 @@ return [
             'id'       => 'shipment',
             'eyebrow'  => 'Booking details',
             'title'    => 'Your shipment details',
-            'intro'    => 'Complete every section accurately — these details appear on your customs declaration.',
+            'intro'    => 'Complete every section accurately - these details appear on your customs declaration.',
             'points'   => [
                 'Sender’s Tax ID or National Insurance number',
                 'Receiver’s ID proof number',

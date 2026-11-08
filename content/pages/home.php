@@ -17,17 +17,19 @@ return [
             'type'  => 'notice',
             'tone'  => 'offer',
             'label' => 'First booking offer',
-            'text'  => 'Claim up to 50% off your first booking — save on customs clearance and shipping in Newcastle, Scotland and across the UK.',
+            'text'  => 'Claim up to 50% off your first booking - save on customs clearance and shipping in Newcastle, Scotland and across the UK.',
             'link'  => 'Claim your discount',
             'href'  => '/request-a-quote/',
         ],
         [
             'type'    => 'prose',
             'id'      => 'welcome',
+            'image'   => asset_img('about'),
+            'image_alt'=> 'Freight operations at Newcastle Airport',
             'eyebrow' => 'Welcome',
             'title'   => 'Welcome to Cargo Northeast Ltd.',
             'html'    => '<p>Cargo Northeast is your trusted partner for <strong>customs clearance and freight services in Newcastle, Scotland and the UK</strong>. We provide effortless customs clearance and shipping from Newcastle, keeping logistics smooth for businesses of every size. From navigating complex customs regulations to reliable freight services, our tailored solutions keep your goods moving.</p>
-<p>Whether you need <a href="/customs-clearance-service-uk/">customs clearance</a>, <a href="/all-airports/">air freight</a>, <a href="/sea-freight-newcastle-upon-tyne/">sea freight</a> or <a href="/road-transport-uk-eu/">road transport</a>, our experienced team handles every shipment with precision and care. We specialise in <strong>post-Brexit trade</strong>, with logistics tailored to businesses and individuals — from Newcastle to ports across the UK and around the world.</p>
+<p>Whether you need <a href="/customs-clearance-service-uk/">customs clearance</a>, <a href="/all-airports/">air freight</a>, <a href="/sea-freight-newcastle-upon-tyne/">sea freight</a> or <a href="/road-transport-uk-eu/">road transport</a>, our experienced team handles every shipment with precision and care. We specialise in <strong>post-Brexit trade</strong>, with logistics tailored to businesses and individuals - from Newcastle to ports across the UK and around the world.</p>
 <p><em>Let us turn your logistics challenges into seamless solutions today.</em></p>',
         ],
         [
@@ -37,16 +39,16 @@ return [
             'eyebrow' => 'What we handle',
             'title'   => 'Effortless customs clearance and shipping',
             'items'   => [
-                ['icon' => 'shield', 'title' => 'Customs clearance', 'text' => 'We handle the complexities of UK imports and exports, with compliant, smooth customs clearance for your shipments.', 'href' => '/customs-clearance-service-uk/'],
-                ['icon' => 'send', 'title' => 'Air freight forwarding', 'text' => 'Quick, reliable air freight for time-sensitive shipments. From Newcastle to the world, with speed and efficiency.', 'href' => '/all-airports/'],
-                ['icon' => 'ship', 'title' => 'Sea freight forwarding', 'text' => 'Cost-effective sea freight for global shipping. Safe, timely delivery for large and small consignments.', 'href' => '/sea-freight-newcastle-upon-tyne/'],
-                ['icon' => 'truck', 'title' => 'Road freight forwarding', 'text' => 'Reliable road freight connecting the UK and EU, with your goods delivered securely and on time.', 'href' => '/road-transport-uk-eu/'],
+                ['image' => asset_img('customs'), 'icon' => 'shield', 'title' => 'Customs clearance', 'text' => 'We handle the complexities of UK imports and exports, with compliant, smooth customs clearance for your shipments.', 'href' => '/customs-clearance-service-uk/'],
+                ['image' => asset_img('air'), 'icon' => 'send', 'title' => 'Air freight forwarding', 'text' => 'Quick, reliable air freight for time-sensitive shipments. From Newcastle to the world, with speed and efficiency.', 'href' => '/all-airports/'],
+                ['image' => asset_img('sea'), 'icon' => 'ship', 'title' => 'Sea freight forwarding', 'text' => 'Cost-effective sea freight for global shipping. Safe, timely delivery for large and small consignments.', 'href' => '/sea-freight-newcastle-upon-tyne/'],
+                ['image' => asset_img('road'), 'icon' => 'truck', 'title' => 'Road freight forwarding', 'text' => 'Reliable road freight connecting the UK and EU, with your goods delivered securely and on time.', 'href' => '/road-transport-uk-eu/'],
             ],
         ],
         [
             'type'  => 'notice',
             'label' => 'Import regulation update',
-            'text'  => 'New rules for importing cumin seeds from India to the UK — read the latest updates from the Department for Business and Trade.',
+            'text'  => 'New rules for importing cumin seeds from India to the UK - read the latest updates from the Department for Business and Trade.',
             'link'  => 'Read the update',
             'href'  => '/new-import-and-export-updates-uk/',
         ],
@@ -57,8 +59,10 @@ return [
             'title'      => 'Customs, handled properly',
             'paragraphs' => [
                 'Since Brexit, almost every shipment into or out of the UK needs a customs declaration submitted to HMRC through the Customs Declaration Service (CDS). Getting the detail right keeps your cargo moving and avoids costly holds.',
-                'We prepare and submit declarations for you, confirm the right commodity codes, and make sure duty and import VAT are accounted for correctly — including postponed VAT accounting where it applies.',
+                'We prepare and submit declarations for you, confirm the right commodity codes, and make sure duty and import VAT are accounted for correctly - including postponed VAT accounting where it applies.',
             ],
+            'image'      => asset_img('panel'),
+            'image_alt'  => 'Cargo being loaded at a freight terminal',
             'checklist'  => ['HMRC & CDS declarations', 'EORI number guidance', 'Commodity code classification', 'Duty & import VAT', 'Postponed VAT accounting'],
         ],
         [
@@ -68,14 +72,14 @@ return [
             'columns' => 3,
             'eyebrow' => 'Special services',
             'title'   => 'Our special services',
-            'intro'   => 'We go beyond logistics with tailored solutions — from Amazon FBA support and China-to-UK freight to house moves and safe storage — designed around the needs of businesses and individuals.',
+            'intro'   => 'We go beyond logistics with tailored solutions - from Amazon FBA support and China-to-UK freight to house moves and safe storage - designed around the needs of businesses and individuals.',
             'items'   => [
-                ['icon' => 'box', 'title' => 'Cargo', 'text' => 'Flexible cargo transport for businesses and individuals. We move freight efficiently from one place to another, saving you time and cost.', 'href' => '/our-services/'],
-                ['icon' => 'globe', 'title' => 'China to UK freight', 'text' => 'Seamless air and sea freight for shipping goods from China to the UK, with customs, logistics and delivery handled.', 'href' => '/import-from-china/'],
-                ['icon' => 'cart', 'title' => 'Amazon FBA', 'text' => 'Expert logistics for Amazon sellers. From preparation to delivery, we keep fulfilment smooth and hassle-free.', 'href' => '/amazon-fba-logistics-solutions/'],
-                ['icon' => 'route', 'title' => 'Worldwide transport', 'text' => 'Global logistics connecting businesses to markets worldwide. Trust us to manage your international shipments.', 'href' => '/uk-to-restoftheworld-freight/'],
-                ['icon' => 'home', 'title' => 'House moves from £49', 'text' => 'Affordable, stress-free house moves in Newcastle, Tyne and Wear and Durham.', 'href' => '/house-move-service-tyne-and-wear/'],
-                ['icon' => 'warehouse', 'title' => 'Safe storage from £50/month', 'text' => 'Secure, flexible storage for students, residents and businesses in Newcastle and Durham, with free collection and delivery.', 'href' => '/safe-storage-newcastle-upon-tyne-northeast/'],
+                ['image' => asset_img('cargo'), 'icon' => 'box', 'title' => 'Cargo', 'text' => 'Flexible cargo transport for businesses and individuals. We move freight efficiently from one place to another, saving you time and cost.', 'href' => '/our-services/'],
+                ['image' => asset_img('china'), 'icon' => 'globe', 'title' => 'China to UK freight', 'text' => 'Seamless air and sea freight for shipping goods from China to the UK, with customs, logistics and delivery handled.', 'href' => '/import-from-china/'],
+                ['image' => asset_img('amazon'), 'icon' => 'cart', 'title' => 'Amazon FBA', 'text' => 'Expert logistics for Amazon sellers. From preparation to delivery, we keep fulfilment smooth and hassle-free.', 'href' => '/amazon-fba-logistics-solutions/'],
+                ['image' => asset_img('worldwide'), 'icon' => 'route', 'title' => 'Worldwide transport', 'text' => 'Global logistics connecting businesses to markets worldwide. Trust us to manage your international shipments.', 'href' => '/uk-to-restoftheworld-freight/'],
+                ['image' => asset_img('house'), 'icon' => 'home', 'title' => 'House moves from £49', 'text' => 'Affordable, stress-free house moves in Newcastle, Tyne and Wear and Durham.', 'href' => '/house-move-service-tyne-and-wear/'],
+                ['image' => asset_img('storage'), 'icon' => 'warehouse', 'title' => 'Safe storage from £50/month', 'text' => 'Secure, flexible storage for students, residents and businesses in Newcastle and Durham, with free collection and delivery.', 'href' => '/safe-storage-newcastle-upon-tyne-northeast/'],
             ],
         ],
         [

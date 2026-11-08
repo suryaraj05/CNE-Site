@@ -5,6 +5,7 @@ return [
     'description' => 'Tighter UK controls on Indian cumin seeds and new anti-dumping duties on Chinese biodiesel: the key dates, new requirements and what they mean for importers.',
     'date'        => '2025-11-25',
     'category'    => 'Import regulations',
+    'image'       => asset_img('blog'),
     'excerpt'     => 'Indian cumin seeds remain in the UK’s high-risk import category, and anti-dumping duties now apply to Chinese biodiesel. Here are the key dates and what they mean for importers.',
     'html'        => '
 <h2>1. Regulatory monitoring of Indian cumin seeds</h2>

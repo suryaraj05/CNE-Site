@@ -1,6 +1,6 @@
 <?php
 return [
-    'title'       => 'Thank You — Message Received | Cargo Northeast',
+    'title'       => 'Thank You - Message Received | Cargo Northeast',
     'description' => 'Thanks for contacting Cargo Northeast. We’ve received your details and will reply within hours on working days. Explore our services while you wait.',
     'robots'      => 'noindex, follow',
     'breadcrumbs' => [],
@@ -9,7 +9,7 @@ return [
         [
             'type'      => 'hero',
             'eyebrow'   => 'Message received',
-            'title'     => 'Thanks — we’ll be in touch shortly',
+            'title'     => 'Thanks - we’ll be in touch shortly',
             'lead'      => 'We’ve received your details and will reply within hours on working days. If you submitted a shipment form, we’ll email your tracking number once the booking is confirmed.',
             'primary'   => ['Back to home', '/'],
             'secondary' => ['Explore our services', '/our-services/'],

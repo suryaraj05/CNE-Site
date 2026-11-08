@@ -56,7 +56,7 @@ $inMenu = fn(array $item): bool => $item['href'] === $page['path'] || isset(($it
   <meta name="description" content="<?= e($page['description']) ?>">
   <meta name="robots" content="<?= e($page['robots']) ?>">
   <link rel="canonical" href="<?= e($canonical) ?>">
-  <meta name="theme-color" content="#172B75">
+  <meta name="theme-color" content="#243e95">
   <meta name="format-detection" content="telephone=no">
 
   <meta property="og:type" content="<?= empty($page['post']) ? 'website' : 'article' ?>">
@@ -74,6 +74,7 @@ $inMenu = fn(array $item): bool => $item['href'] === $page['path'] || isset(($it
 
   <link rel="preload" href="/dist/plus-jakarta-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="<?= e(asset('app.css')) ?>">
+  <script>document.documentElement.classList.add('js')</script>
   <script type="module" src="<?= e(asset('app.js')) ?>"></script>
 
   <script type="application/ld+json"><?= json_encode($schema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG) ?></script>
@@ -81,8 +82,8 @@ $inMenu = fn(array $item): bool => $item['href'] === $page['path'] || isset(($it
 <body class="bg-canvas font-sans text-ink antialiased">
   <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:rounded-lg focus:bg-navy focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-white">Skip to content</a>
 
-  <div x-data="{ office: 'uk' }" class="bg-ink text-[13px] text-blue-100/80">
-    <div class="mx-auto flex h-10 max-w-6xl items-center justify-between gap-4 px-6">
+  <div x-data="{ office: 'uk' }" class="bg-ink text-[13px] text-white/80">
+    <div class="mx-auto flex h-10 max-w-7xl items-center justify-between gap-4 px-6 lg:px-10">
       <div class="flex min-w-0 items-center gap-5">
         <div role="group" aria-label="Choose office" class="flex shrink-0 rounded-md bg-white/10 p-0.5 text-xs font-semibold">
           <button type="button" @click="office = 'uk'" :aria-pressed="(office === 'uk').toString()" aria-pressed="true" class="rounded px-2.5 py-1 transition-colors hover:text-white aria-pressed:bg-white aria-pressed:text-ink">UK office</button>
@@ -104,19 +105,18 @@ $inMenu = fn(array $item): bool => $item['href'] === $page['path'] || isset(($it
     </div>
   </div>
 
-  <header x-data="{ open: false }" @keydown.escape.window="open = false" class="sticky top-0 z-40 border-b border-line bg-white">
-    <div class="relative mx-auto flex h-[84px] max-w-6xl items-center justify-between gap-6 px-6">
-      <a href="/" class="flex items-center gap-2.5 text-[17px] font-bold tracking-tight text-ink" aria-label="<?= e(SITE_NAME) ?> home">
+  <header x-data="{ open: false, scrolled: false }" @scroll.window.throttle.50ms="scrolled = window.scrollY > 8" @keydown.escape.window="open = false" :class="scrolled && 'shadow-[0_12px_40px_-24px_rgba(12,18,57,0.28)] border-line/80'" class="sticky top-0 z-40 border-b border-line/60 bg-white/85 backdrop-blur-md transition-[box-shadow,border-color] duration-500">
+    <div class="relative mx-auto flex h-[84px] max-w-7xl items-center justify-between gap-6 px-6 lg:px-10">
+      <a href="/" class="flex shrink-0 items-center" aria-label="<?= e(SITE_NAME) ?> home">
 <?php if ($logo = asset_img('logo')): ?>
-        <img src="<?= e($logo) ?>" alt="" class="h-11 w-auto">
+        <img src="<?= e($logo) ?>" alt="<?= e(SITE_NAME) ?>" width="220" height="56" class="h-12 w-auto sm:h-14">
 <?php else: ?>
-        <svg class="size-8 shrink-0" viewBox="0 0 32 32" fill="none" aria-hidden="true"><circle cx="16" cy="16" r="14.5" stroke="#172B75" stroke-width="1.6"/><g stroke="#172B75" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8.5 22.5 12v8L16 23.5 9.5 20v-8L16 8.5Z"/><path d="M9.5 12 16 15.5 22.5 12M16 15.5v8"/></g></svg>
-        <?= e(SITE_NAME) ?>
+        <span class="text-[17px] font-bold tracking-tight text-ink"><?= e(SITE_NAME) ?></span>
 <?php endif; ?>
       </a>
 
       <nav aria-label="Primary" class="hidden self-stretch lg:flex">
-        <ul class="flex items-stretch gap-0.5 text-sm font-medium text-slate-600">
+        <ul class="flex items-stretch gap-0.5 text-sm font-medium text-muted">
 <?php foreach ($nav['primary'] as $item):
     $active = $inMenu($item) ? 'text-navy' : '';
 ?>
@@ -130,7 +130,7 @@ $inMenu = fn(array $item): bool => $item['href'] === $page['path'] || isset(($it
               <span :class="menu && 'rotate-180'" class="block transition-transform duration-150"><?= icon('chevron-down', 'size-3.5') ?></span>
             </button>
             <div x-show="menu" x-cloak x-transition.opacity.duration.150ms class="absolute top-full -left-2 z-50 w-64">
-              <div class="rounded-2xl border border-line bg-white p-2 shadow-[0_24px_60px_-24px_rgba(15,26,61,0.3)]">
+              <div class="rounded-2xl border border-line bg-white p-2 shadow-[0_24px_60px_-24px_rgba(12,18,57,0.3)]">
                 <ul>
 <?php foreach ($item['items'] as $href => $label): ?>
                   <li><a href="<?= e($href) ?>"<?= $current($href) ?> class="block rounded-lg px-3 py-2.5 text-ink transition-colors hover:bg-mist hover:text-navy aria-[current=page]:bg-mist aria-[current=page]:text-navy"><?= e($label) ?></a></li>
@@ -146,7 +146,7 @@ $inMenu = fn(array $item): bool => $item['href'] === $page['path'] || isset(($it
 
       <div class="hidden items-center gap-6 lg:flex">
         <a href="tel:<?= e(PHONE_E164) ?>" class="hidden text-sm font-semibold text-ink transition-colors hover:text-navy xl:block"><?= e(PHONE_DISPLAY) ?></a>
-        <a href="/request-a-quote/" class="inline-flex h-10 items-center rounded-lg bg-navy px-5 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-navy-700 focus-visible:ring-4 focus-visible:ring-navy/20 focus-visible:outline-none">Get a quote</a>
+        <a href="/request-a-quote/" class="btn btn-primary btn-sm">Get a quote</a>
       </div>
 
       <button type="button" @click="open = !open" :aria-expanded="open.toString()" aria-controls="mobile-nav" aria-expanded="false" class="-mr-2 inline-flex size-10 items-center justify-center rounded-lg text-ink hover:bg-mist lg:hidden">
@@ -157,20 +157,20 @@ $inMenu = fn(array $item): bool => $item['href'] === $page['path'] || isset(($it
     </div>
 
     <nav id="mobile-nav" x-show="open" x-cloak x-transition.opacity.duration.150ms aria-label="Mobile" class="max-h-[calc(100dvh-84px)] overflow-y-auto overscroll-contain border-t border-line bg-white lg:hidden">
-      <ul class="mx-auto max-w-6xl space-y-1 px-6 py-4 text-[15px] font-medium">
+      <ul class="mx-auto max-w-7xl space-y-1 px-6 py-4 text-[15px] font-medium lg:px-10">
 <?php foreach ($nav['primary'] as $item): ?>
 <?php if (!isset($item['items'])): ?>
-        <li><a href="<?= e($item['href']) ?>"<?= $current($item['href']) ?> class="block rounded-lg px-3 py-2.5 text-slate-700 hover:bg-mist hover:text-navy aria-[current=page]:text-navy"><?= e($item['label']) ?></a></li>
+        <li><a href="<?= e($item['href']) ?>"<?= $current($item['href']) ?> class="block rounded-lg px-3 py-2.5 text-muted hover:bg-mist hover:text-navy aria-[current=page]:text-navy"><?= e($item['label']) ?></a></li>
 <?php else: ?>
         <li x-data="{ sub: <?= $inMenu($item) ? 'true' : 'false' ?> }">
-          <button type="button" @click="sub = !sub" :aria-expanded="sub.toString()" aria-expanded="false" class="flex w-full items-center justify-between rounded-lg px-3 py-2.5 text-slate-700 hover:bg-mist">
+          <button type="button" @click="sub = !sub" :aria-expanded="sub.toString()" aria-expanded="false" class="flex w-full items-center justify-between rounded-lg px-3 py-2.5 text-muted hover:bg-mist">
             <?= e($item['label']) ?>
             <span :class="sub && 'rotate-180'" class="transition-transform duration-150"><?= icon('chevron-down', 'size-4') ?></span>
           </button>
           <div x-show="sub" x-cloak class="pb-2 pl-3">
             <ul>
 <?php foreach ($item['items'] as $href => $label): ?>
-              <li><a href="<?= e($href) ?>"<?= $current($href) ?> class="block rounded-lg px-3 py-2 text-sm text-slate-700 hover:bg-mist hover:text-navy aria-[current=page]:text-navy"><?= e($label) ?></a></li>
+              <li><a href="<?= e($href) ?>"<?= $current($href) ?> class="block rounded-lg px-3 py-2 text-sm text-muted hover:bg-mist hover:text-navy aria-[current=page]:text-navy"><?= e($label) ?></a></li>
 <?php endforeach; ?>
             </ul>
           </div>
@@ -178,8 +178,8 @@ $inMenu = fn(array $item): bool => $item['href'] === $page['path'] || isset(($it
 <?php endif; ?>
 <?php endforeach; ?>
         <li class="flex flex-col gap-2 pt-3">
-          <a href="tel:<?= e(PHONE_E164) ?>" class="flex h-11 items-center justify-center rounded-lg border border-line font-semibold text-ink"><?= e(PHONE_DISPLAY) ?></a>
-          <a href="/request-a-quote/" class="flex h-11 items-center justify-center rounded-lg bg-navy font-semibold text-white">Get a quote</a>
+          <a href="tel:<?= e(PHONE_E164) ?>" class="btn btn-secondary"><?= e(PHONE_DISPLAY) ?></a>
+          <a href="/request-a-quote/" class="btn btn-primary">Get a quote</a>
         </li>
       </ul>
     </nav>

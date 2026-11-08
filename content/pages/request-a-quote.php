@@ -7,9 +7,10 @@ return [
     'sections'    => [
         [
             'type'    => 'hero',
+            'image'   => asset_img('panel'),
             'eyebrow' => 'Request a quote',
             'title'   => 'Get a quote for your shipment',
-            'lead'    => 'Projects big or small — tell us what you’re moving and where, and we’ll come back with a clear, no-obligation quote.',
+            'lead'    => 'Projects big or small - tell us what you’re moving and where, and we’ll come back with a clear, no-obligation quote.',
             'primary' => false,
         ],
         [
@@ -37,7 +38,7 @@ return [
                 ['name' => 'company', 'label' => 'Company', 'type' => 'text', 'autocomplete' => 'organization'],
                 ['type' => 'heading', 'label' => 'Shipment'],
                 ['name' => 'service', 'label' => 'Service required', 'type' => 'select', 'required' => true, 'half' => true, 'options' => ['Customs clearance', 'Road transport', 'Air freight', 'Sea freight', 'Logistics planning', 'House move']],
-                ['name' => 'mode', 'label' => 'Preferred transport mode', 'type' => 'select', 'half' => true, 'options' => ['Air', 'Sea', 'Road', 'Not sure — please advise']],
+                ['name' => 'mode', 'label' => 'Preferred transport mode', 'type' => 'select', 'half' => true, 'options' => ['Air', 'Sea', 'Road', 'Not sure - please advise']],
                 ['name' => 'origin', 'label' => 'Departure city', 'type' => 'text', 'half' => true, 'placeholder' => 'e.g. Shanghai, China'],
                 ['name' => 'destination', 'label' => 'Delivery city', 'type' => 'text', 'half' => true, 'placeholder' => 'e.g. Newcastle, UK'],
                 ['name' => 'shipment_type', 'label' => 'Shipment type', 'type' => 'select', 'half' => true, 'options' => ['General', 'Food', 'Fragile']],
@@ -63,8 +64,8 @@ return [
             'items' => [
                 ['q' => 'Is the quote free?', 'a' => 'Yes. Every quote is free and comes with no obligation to book.'],
                 ['q' => 'What information do you need for an accurate quote?', 'a' => 'The departure and delivery cities, the weight and dimensions of your goods, a description of what you’re shipping and when it will be ready. If customs clearance is involved, having your commercial invoice and EORI number to hand also helps.'],
-                ['q' => 'Can I request more than one service?', 'a' => 'Yes. Choose the main service in the form and mention anything else — such as customs clearance alongside freight — in the special information box.'],
-                ['q' => 'I’m not sure which transport mode I need. Can you advise?', 'a' => 'Of course. Choose “Not sure — please advise” and we’ll recommend the best balance of cost and speed for your shipment.'],
+                ['q' => 'Can I request more than one service?', 'a' => 'Yes. Choose the main service in the form and mention anything else - such as customs clearance alongside freight - in the special information box.'],
+                ['q' => 'I’m not sure which transport mode I need. Can you advise?', 'a' => 'Of course. Choose “Not sure - please advise” and we’ll recommend the best balance of cost and speed for your shipment.'],
             ],
         ],
     ],

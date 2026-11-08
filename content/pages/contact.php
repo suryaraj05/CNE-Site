@@ -7,6 +7,7 @@ return [
     'sections'    => [
         [
             'type'      => 'hero',
+            'image'     => asset_img('contact'),
             'eyebrow'   => 'Contact us',
             'title'     => 'Talk to our customs and freight team',
             'lead'      => 'Questions about customs clearance, shipping, moving or storage? Call, email or send us a message and the right person will get back to you.',
@@ -21,6 +22,8 @@ return [
             'title'      => 'How can we help?',
             'intro'      => 'We’re here to help with all your logistics, moving and storage needs across Newcastle, Tyne and Wear and beyond. Whether you have a question, need a custom quote or want to discuss your requirements, contact us by phone, email or the form.',
             'contact'    => true,
+            'image'      => asset_img('airport'),
+            'image_alt'  => 'Airport freight operations',
             'form_title' => 'Leave your message',
             'endpoint'   => '/enquiries',
             'success'    => '/thank-you/',

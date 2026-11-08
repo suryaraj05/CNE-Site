@@ -21,7 +21,7 @@ return [
             'items'   => [
                 ['icon' => 'eye', 'title' => 'Our vision', 'text' => 'To be the foremost provider of cargo solutions in North East England and the UK, redefining excellence through affordability, efficiency, accessibility and sustainability.'],
                 ['icon' => 'target', 'title' => 'Our mission', 'text' => 'To transform the cargo industry in North East England by delivering exceptional, innovative and customer-focused services.'],
-                ['icon' => 'flag', 'title' => 'Our slogan', 'text' => 'Redefining logistics with affordability, efficiency and sustainability — Cargo Northeast leads the way in North East UK cargo solutions.'],
+                ['icon' => 'flag', 'title' => 'Our slogan', 'text' => 'Redefining logistics with affordability, efficiency and sustainability - Cargo Northeast leads the way in North East UK cargo solutions.'],
             ],
         ],
         [

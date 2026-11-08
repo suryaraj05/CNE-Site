@@ -12,7 +12,7 @@ return [
             'quote_placeholder' => 'e.g. Leeds Bradford (LBA) → Toronto',
             'eyebrow'           => 'Export clearance LBA',
             'title'             => 'Customs clearance for exports from Leeds',
-            'lead'              => 'Export declarations and air freight for businesses shipping from Leeds through Leeds Bradford Airport — so your goods leave the UK on time and arrive ready for their destination.',
+            'lead'              => 'Export declarations and air freight for businesses shipping from Leeds through Leeds Bradford Airport - so your goods leave the UK on time and arrive ready for their destination.',
         ],
         ['type' => 'trust'],
         [
@@ -35,7 +35,7 @@ return [
             'title'      => 'Cleared to leave, ready to land',
             'paragraphs' => [
                 'Goods exported from Leeds must be declared to HMRC before they leave the UK, with the export declaration submitted through the Customs Declaration Service (CDS). For shipments departing via Leeds Bradford Airport (LBA), that declaration needs to be complete before the cargo is loaded.',
-                'We check your EORI number, prepare the declaration and commodity data, advise on export VAT treatment and coordinate with freight and logistics providers. If HMRC raises a query, we deal with it — keeping customs-related delays to a minimum.',
+                'We check your EORI number, prepare the declaration and commodity data, advise on export VAT treatment and coordinate with freight and logistics providers. If HMRC raises a query, we deal with it - keeping customs-related delays to a minimum.',
             ],
             'checklist'  => ['CDS export declarations', 'EORI number checks', 'Commodity & export data', 'Export VAT relief guidance', 'HMRC query handling'],
         ],
@@ -46,7 +46,7 @@ return [
             'items'       => [
                 ['title' => 'Customs and freight together', 'text' => 'Declarations and air freight coordinated by one team for a more streamlined export.'],
                 ['title' => 'Responsive communication', 'text' => 'Clear answers on documents and requirements before your shipment moves.'],
-                ['title' => 'Flexible freight options', 'text' => 'Door-to-door or airport-to-airport, one-off or regular — whatever your export needs.'],
+                ['title' => 'Flexible freight options', 'text' => 'Door-to-door or airport-to-airport, one-off or regular - whatever your export needs.'],
             ],
             'testimonial' => [
                 'quote' => 'Cargo Northeast made customs clearance a breeze for our business. Their team handled all the paperwork efficiently, saving us time and hassle.',
@@ -58,7 +58,7 @@ return [
             'type'  => 'steps',
             'title' => 'Exporting from Leeds in four steps',
             'items' => [
-                ['title' => 'Tell us the destination', 'text' => 'Goods, value, destination and timescales — plus your EORI number.'],
+                ['title' => 'Tell us the destination', 'text' => 'Goods, value, destination and timescales - plus your EORI number.'],
                 ['title' => 'Paperwork prepared', 'text' => 'Commercial invoice, packing list and export data checked against destination requirements.'],
                 ['title' => 'Export declaration filed', 'text' => 'We submit the declaration to HMRC through CDS.'],
                 ['title' => 'Flown from LBA', 'text' => 'Your cargo departs Leeds Bradford for its international destination.'],
@@ -70,10 +70,10 @@ return [
             'items' => [
                 ['q' => 'What is export customs clearance?', 'a' => 'The process of declaring goods to customs before they leave the country. It involves submitting accurate documentation and shipment details so the goods can be legally exported.'],
                 ['q' => 'What does Export Clearance LBA mean?', 'a' => 'It means completing the required export customs procedures for goods departing through Leeds Bradford Airport (LBA), so shipments can move on to their international destination without avoidable delays.'],
-                ['q' => 'What documents are needed to export goods from Leeds?', 'a' => 'Commonly a commercial invoice, a packing list, an air waybill and an export declaration. Some shipments need licences or certificates of origin — we’ll advise on what yours requires.'],
+                ['q' => 'What documents are needed to export goods from Leeds?', 'a' => 'Commonly a commercial invoice, a packing list, an air waybill and an export declaration. Some shipments need licences or certificates of origin - we’ll advise on what yours requires.'],
                 ['q' => 'Do you offer air freight for urgent exports?', 'a' => 'Yes. Our air freight services for Leeds Bradford suit urgent, high-value and time-sensitive consignments, and we coordinate customs clearance alongside the freight.'],
             ],
         ],
-        ['type' => 'cta', 'title' => 'Exporting from Leeds?', 'text' => 'Tell us what you’re shipping, where it’s going and when — we’ll come back with a clear, no-obligation export quote.'],
+        ['type' => 'cta', 'title' => 'Exporting from Leeds?', 'text' => 'Tell us what you’re shipping, where it’s going and when - we’ll come back with a clear, no-obligation export quote.'],
     ],
 ];

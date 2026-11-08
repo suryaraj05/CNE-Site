@@ -12,7 +12,7 @@ return [
             'quote_placeholder' => 'e.g. Newcastle → Beijing',
             'eyebrow'           => 'Baggage to China',
             'title'             => 'Baggage delivery from the UK to China',
-            'lead'              => 'A stress-free, door-to-door way to send personal belongings or commercial items to China — collected from your door, cleared at both ends and delivered to your chosen address.',
+            'lead'              => 'A stress-free, door-to-door way to send personal belongings or commercial items to China - collected from your door, cleared at both ends and delivered to your chosen address.',
         ],
         ['type' => 'trust'],
         [
@@ -34,7 +34,7 @@ return [
             'title'      => 'UK and Chinese customs, handled properly',
             'paragraphs' => [
                 'International shipping rules can be challenging, and shipments to China must satisfy customs at both ends. We take that complexity off your hands with an end-to-end service that covers every stage of the journey.',
-                'Our team prepares and verifies all documentation, makes sure your shipment complies with UK export and Chinese import regulations, and handles any taxes, duties and import requirements — minimising the risk of delays.',
+                'Our team prepares and verifies all documentation, makes sure your shipment complies with UK export and Chinese import regulations, and handles any taxes, duties and import requirements - minimising the risk of delays.',
             ],
             'checklist'  => ['UK export compliance', 'Chinese import regulations', 'Documentation prepared & verified', 'Taxes and duties handled', 'Personal effects & commercial goods'],
         ],

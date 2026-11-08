@@ -12,7 +12,7 @@ return [
             'quote_placeholder' => 'e.g. Shanghai → London Gateway',
             'eyebrow'           => 'Sea freight & customs clearance',
             'title'             => 'Customs clearance at London Gateway Port',
-            'lead'              => 'Containers declared correctly, released quickly and delivered on time — with customs and onward transport from London Gateway handled by one team.',
+            'lead'              => 'Containers declared correctly, released quickly and delivered on time - with customs and onward transport from London Gateway handled by one team.',
         ],
         ['type' => 'trust'],
         [
@@ -23,7 +23,7 @@ return [
             'intro'   => 'At a major container port every hour counts. Incorrect paperwork, a wrong commodity code or a missing EORI number can hold your containers, trigger storage charges and delay delivery to your customers.',
             'items'   => [
                 ['icon' => 'shield', 'title' => 'Import & export declarations', 'text' => 'Declarations prepared and submitted to HMRC through the Customs Declaration Service (CDS).'],
-                ['icon' => 'clipboard', 'title' => 'Commodity classification', 'text' => 'The right commodity codes assigned — they affect duty rates, licensing and the accuracy of your declaration.'],
+                ['icon' => 'clipboard', 'title' => 'Commodity classification', 'text' => 'The right commodity codes assigned - they affect duty rates, licensing and the accuracy of your declaration.'],
                 ['icon' => 'ship', 'title' => 'Shipping line & terminal liaison', 'text' => 'We coordinate with shipping lines, hauliers and the terminal so documents and containers are ready together.'],
                 ['icon' => 'truck', 'title' => 'Freight forwarding & delivery', 'text' => 'Clearance and onward transport brought together, so your cargo is easier to track from booking to delivery.'],
             ],

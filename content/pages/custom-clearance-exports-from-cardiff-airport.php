@@ -23,7 +23,7 @@ return [
             'intro'   => 'A missing document or an incorrect declaration can hold cargo on the ground and add costs you didn’t plan for. We check the detail before your goods reach the airport.',
             'items'   => [
                 ['icon' => 'send', 'title' => 'Export declarations', 'text' => 'Export declarations prepared and submitted to HMRC through the Customs Declaration Service (CDS).'],
-                ['icon' => 'clipboard', 'title' => 'Commodity classification', 'text' => 'The right commodity codes assigned — they affect duty rates, licensing and the accuracy of your declaration.'],
+                ['icon' => 'clipboard', 'title' => 'Commodity classification', 'text' => 'The right commodity codes assigned - they affect duty rates, licensing and the accuracy of your declaration.'],
                 ['icon' => 'lock', 'title' => 'Licences & restricted goods', 'text' => 'Goods that need an export licence or extra checks flagged before they reach the airport.'],
                 ['icon' => 'plane', 'title' => 'Air freight & handlers', 'text' => 'Carriers and cargo handlers coordinated so your documents and goods arrive together.'],
             ],
@@ -35,7 +35,7 @@ return [
             'title'      => 'Declared correctly before departure',
             'paragraphs' => [
                 'Every commercial shipment leaving the UK must be declared to HMRC before it can depart. The declaration records what you’re sending, its value, its commodity code and its destination. If any detail is wrong, goods can be held at the airport, shipments delayed and penalties incurred.',
-                'We check your GB EORI number, prepare the declaration and explain how duty and VAT apply — including the proof of export you need to keep for VAT zero-rating. We also handle imports into Cardiff, so one team keeps your import and export records consistent.',
+                'We check your GB EORI number, prepare the declaration and explain how duty and VAT apply - including the proof of export you need to keep for VAT zero-rating. We also handle imports into Cardiff, so one team keeps your import and export records consistent.',
             ],
             'checklist'  => ['CDS export declarations', 'EORI number checks', 'Commodity codes', 'Export VAT zero-rating evidence', 'Import clearance into Cardiff'],
         ],

@@ -1,24 +1,27 @@
 <?php
 return [
-    'title'       => 'About Us — Customs & Logistics in Newcastle | Cargo Northeast',
+    'title'       => 'About Us - Customs & Logistics in Newcastle | Cargo Northeast',
     'description' => 'Cargo Northeast is a Newcastle-based customs broker and freight forwarder handling HMRC clearance plus air, sea and road freight across North East England.',
     'breadcrumbs' => [],
     'crumb'       => 'About us',
     'sections'    => [
         [
             'type'    => 'hero',
+            'image'   => asset_img('about'),
             'eyebrow' => 'About Cargo Northeast',
             'title'   => 'Customs clearance and logistics, based in Newcastle',
-            'lead'    => 'We’re a Newcastle upon Tyne customs broker and freight forwarder, helping businesses across North East England and the UK move goods by air, sea and road — with the customs paperwork handled properly.',
+            'lead'    => 'We’re a Newcastle upon Tyne customs broker and freight forwarder, helping businesses across North East England and the UK move goods by air, sea and road - with the customs paperwork handled properly.',
         ],
         ['type' => 'trust'],
         [
             'type'    => 'prose',
             'id'      => 'introduction',
+            'image'   => asset_img('cargo'),
+            'image_alt'=> 'Containers ready for shipment',
             'eyebrow' => 'Introduction',
             'title'   => 'A local team with global reach',
-            'html'    => '<p>Cargo Northeast Ltd specialises in customs clearance and logistics for businesses in Newcastle and North East England. From our office at Freight Village, Newcastle Airport, we arrange <a href="/sea-freight-newcastle-upon-tyne/">sea freight</a>, <a href="/all-airports/">air freight</a> and <a href="/road-transport-uk-eu/">road transport</a>, and serve the region’s key ports — including the Port of Tyne, Sunderland and Teesport.</p>
-<p>Our personalised logistics solutions are designed to give reliable, efficient service to businesses trading locally and internationally. With a network of trusted partners, we’re your go-to provider for logistics in North East England and beyond — and a second office in Mumbai supports customers shipping between the UK and India.</p>',
+            'html'    => '<p>Cargo Northeast Ltd specialises in customs clearance and logistics for businesses in Newcastle and North East England. From our office at Freight Village, Newcastle Airport, we arrange <a href="/sea-freight-newcastle-upon-tyne/">sea freight</a>, <a href="/all-airports/">air freight</a> and <a href="/road-transport-uk-eu/">road transport</a>, and serve the region’s key ports - including the Port of Tyne, Sunderland and Teesport.</p>
+<p>Our personalised logistics solutions are designed to give reliable, efficient service to businesses trading locally and internationally. With a network of trusted partners, we’re your go-to provider for logistics in North East England and beyond - and a second office in Mumbai supports customers shipping between the UK and India.</p>',
         ],
         [
             'type'       => 'panel',
@@ -34,10 +37,13 @@ return [
         [
             'type'    => 'prose',
             'id'      => 'approach',
+            'image'   => asset_img('expertise'),
+            'image_alt'=> 'Planning customs and freight documentation',
+            'reverse' => true,
             'eyebrow' => 'Our holistic approach',
             'title'   => 'Logistics is more than moving goods',
             'html'    => '<p>At Cargo Northeast, logistics is about offering a complete solution. From <a href="/customs-clearance-service-uk/">customs clearance</a> to final delivery, every part of your shipment’s journey is handled with precision and care.</p>
-<p>By combining local expertise in North East England with international freight capability, we tailor our services to the specific needs of each client — so businesses across Newcastle and the UK can rely on us for seamless, dependable service.</p>
+<p>By combining local expertise in North East England with international freight capability, we tailor our services to the specific needs of each client - so businesses across Newcastle and the UK can rely on us for seamless, dependable service.</p>
 <h3>Beyond conventional logistics</h3>
 <p>When you choose Cargo Northeast, you gain more than a logistics provider: you gain a partner committed to helping your business succeed. With access to key ports and transport hubs across North East England, we offer a strategic advantage for local and international trade.</p>
 <p>From customs clearance in the UK to managing global freight, we simplify the logistics process. Let us take care of your logistics so you can focus on driving your business forward.</p>',
@@ -75,7 +81,7 @@ return [
             'columns' => 3,
             'eyebrow' => 'What we do',
             'title'   => 'Our services include',
-            'intro'   => 'We’re committed to making logistics easy for businesses in Newcastle, North East England and beyond — whether you need customs clearance, international freight or local road transport.',
+            'intro'   => 'We’re committed to making logistics easy for businesses in Newcastle, North East England and beyond - whether you need customs clearance, international freight or local road transport.',
             'items'   => [
                 ['icon' => 'shield', 'title' => 'Customs clearance', 'text' => 'Simpler imports and exports, with declarations handled in Newcastle and across the UK.', 'href' => '/customs-clearance-service-uk/'],
                 ['icon' => 'ship', 'title' => 'Sea freight', 'text' => 'Cost-effective shipping for large and small consignments on global routes.', 'href' => '/sea-freight-newcastle-upon-tyne/'],

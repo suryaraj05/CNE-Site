@@ -8,11 +8,12 @@ return [
     'sections'    => [
         [
             'type'              => 'hero',
+            'image'   => asset_img('house'),
             'quote'             => true,
             'quote_placeholder' => 'e.g. Sunderland → Newcastle',
             'eyebrow'           => 'House removals · North East England',
             'title'             => 'House move service in Tyne and Wear from £49',
-            'lead'              => 'Affordable, reliable house removals across Newcastle, Durham, Sunderland, South Shields, Ashington and the rest of North East England — and anywhere in the UK.',
+            'lead'              => 'Affordable, reliable house removals across Newcastle, Durham, Sunderland, South Shields, Ashington and the rest of North East England - and anywhere in the UK.',
             'note'              => 'Local moves from £49 · UK-wide from £99',
         ],
         ['type' => 'trust'],
@@ -22,7 +23,7 @@ return [
             'eyebrow'    => 'Pricing',
             'title'      => 'Local and UK-wide moves at fair prices',
             'paragraphs' => [
-                'Local house moves within North East England — including Newcastle, Sunderland, Durham, South Shields and Ashington — start at just £49.',
+                'Local house moves within North East England - including Newcastle, Sunderland, Durham, South Shields and Ashington - start at just £49.',
                 'Moving from Tyne and Wear or Durham to elsewhere in the UK? UK-wide relocations start from £99. Conditions apply: rates vary with item weight, dimensions and distance.',
             ],
             'checklist'  => ['Local moves from £49', 'UK-wide moves from £99', 'Personal move manager', 'Free quote, no obligation'],
@@ -45,7 +46,7 @@ return [
             'eyebrow'    => 'Student moves',
             'title'      => 'Student moving service for North East universities',
             'paragraphs' => [
-                'Moving in or out of university in Newcastle, Sunderland or Durham? Our free collection and same-day move service is designed for students — from campus to home, or between university residences.',
+                'Moving in or out of university in Newcastle, Sunderland or Durham? Our free collection and same-day move service is designed for students - from campus to home, or between university residences.',
                 'Need somewhere to keep your things over the summer? Pair your move with our student storage.',
             ],
             'checklist'  => ['Free collection', 'Same-day moves', 'Newcastle, Sunderland & Durham', 'Storage available'],
@@ -56,7 +57,7 @@ return [
             'title'       => 'Local movers who know the North East',
             'items'       => [
                 ['title' => 'Personal move manager', 'text' => 'One dedicated contact oversees your move from start to finish, with local knowledge of Newcastle, Sunderland, Teesport and beyond.'],
-                ['title' => 'Experienced, professional team', 'text' => 'Seasoned movers handling removals across the North East every week — your belongings are in trusted hands.'],
+                ['title' => 'Experienced, professional team', 'text' => 'Seasoned movers handling removals across the North East every week - your belongings are in trusted hands.'],
                 ['title' => 'Local and national', 'text' => 'From a short hop across Tyne and Wear to a move to another UK city.'],
             ],
             'testimonial' => [

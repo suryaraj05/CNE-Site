@@ -12,7 +12,7 @@ return [
             'quote_placeholder' => 'e.g. Dubai → Newcastle (NCL)',
             'eyebrow'           => 'Freight services Newcastle UK',
             'title'             => 'Customs clearance services in Newcastle',
-            'lead'              => 'Our UK office is at Freight Village, Newcastle Airport — so imports and exports through Newcastle are cleared by a team that’s right on the doorstep.',
+            'lead'              => 'Our UK office is at Freight Village, Newcastle Airport - so imports and exports through Newcastle are cleared by a team that’s right on the doorstep.',
         ],
         ['type' => 'trust'],
         [
@@ -71,10 +71,10 @@ return [
             'items' => [
                 ['q' => 'Where are you based in Newcastle?', 'a' => 'Our UK office is at Freight Village, Newcastle Airport, NE13 8BH. You can call +44 7354 595649 or email opsuk@cargonortheast.com.'],
                 ['q' => 'Can you help with customs clearance for exports from Newcastle Airport?', 'a' => 'Yes. We coordinate export declarations, shipment documentation and the freight and airport processes involved in exporting goods from Newcastle Airport.'],
-                ['q' => 'What documents are usually needed?', 'a' => 'Commonly a commercial invoice, a packing list, an air waybill and a customs declaration. Some shipments need extra paperwork such as licences or certificates of origin — we’ll advise on yours.'],
+                ['q' => 'What documents are usually needed?', 'a' => 'Commonly a commercial invoice, a packing list, an air waybill and a customs declaration. Some shipments need extra paperwork such as licences or certificates of origin - we’ll advise on yours.'],
                 ['q' => 'Do your Newcastle freight services cover urgent shipments?', 'a' => 'Yes. Air freight suits urgent and high-value consignments, and we coordinate customs clearance alongside the freight to keep time-sensitive goods moving.'],
             ],
         ],
-        ['type' => 'cta', 'title' => 'Need customs clearance in Newcastle?', 'text' => 'Talk to our team at Newcastle Airport about your import or export — we’ll come back with a clear, no-obligation quote.'],
+        ['type' => 'cta', 'title' => 'Need customs clearance in Newcastle?', 'text' => 'Talk to our team at Newcastle Airport about your import or export - we’ll come back with a clear, no-obligation quote.'],
     ],
 ];

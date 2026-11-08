@@ -23,7 +23,7 @@ return [
             'intro'   => 'Whether you’re importing commercial goods, receiving an urgent shipment or moving cargo internationally on a regular basis, we make Gatwick customs easier to understand and manage.',
             'items'   => [
                 ['icon' => 'shield', 'title' => 'Import declarations', 'text' => 'Import entries for goods arriving at LGW, prepared accurately and submitted to HMRC through CDS.'],
-                ['icon' => 'users', 'title' => 'Customs broker support', 'text' => 'Practical help if you don’t import often — we explain the procedures and documents that apply to you.'],
+                ['icon' => 'users', 'title' => 'Customs broker support', 'text' => 'Practical help if you don’t import often - we explain the procedures and documents that apply to you.'],
                 ['icon' => 'search', 'title' => 'Classification & valuation', 'text' => 'Goods descriptions, commodity information, shipment value and country of origin confirmed before filing.'],
                 ['icon' => 'truck', 'title' => 'Wider air freight support', 'text' => 'Collection, handling and delivery coordinated alongside customs for a clear view of the whole journey.'],
             ],
@@ -45,7 +45,7 @@ return [
             'title'       => 'A Gatwick customs broker that explains things',
             'items'       => [
                 ['title' => 'No jargon', 'text' => 'We explain what’s needed in straightforward language, so you know what to expect.'],
-                ['title' => 'Every shipment assessed', 'text' => 'Machinery, spare parts, commercial goods, samples or general cargo — each reviewed on its own terms.'],
+                ['title' => 'Every shipment assessed', 'text' => 'Machinery, spare parts, commercial goods, samples or general cargo - each reviewed on its own terms.'],
                 ['title' => 'BIFA member', 'text' => 'We trade under BIFA terms and file declarations correctly through CDS.'],
             ],
             'testimonial' => [
@@ -58,7 +58,7 @@ return [
             'type'  => 'steps',
             'title' => 'Gatwick import clearance, step by step',
             'items' => [
-                ['title' => 'Send shipment details', 'text' => 'What’s arriving, where from and when — plus the commercial invoice and air waybill.'],
+                ['title' => 'Send shipment details', 'text' => 'What’s arriving, where from and when - plus the commercial invoice and air waybill.'],
                 ['title' => 'We prepare the entry', 'text' => 'Commodity codes, value and origin confirmed; duty and VAT worked out in advance.'],
                 ['title' => 'Cleared on arrival', 'text' => 'We submit the import declaration to HMRC through CDS.'],
                 ['title' => 'Onward delivery', 'text' => 'Released goods are delivered to your premises or end customer.'],

@@ -8,11 +8,12 @@ return [
     'sections'    => [
         [
             'type'              => 'hero',
+            'image'   => asset_img('amazon'),
             'quote'             => true,
             'quote_placeholder' => 'e.g. Newcastle → Amazon FC (UK)',
             'eyebrow'           => 'Amazon FBA logistics',
             'title'             => 'Amazon FBA logistics for UK sellers',
-            'lead'              => 'Prep, labelling, storage and delivery to Amazon fulfilment centres across the UK, EU and beyond — handled to Amazon’s standards, so you can focus on selling.',
+            'lead'              => 'Prep, labelling, storage and delivery to Amazon fulfilment centres across the UK, EU and beyond - handled to Amazon’s standards, so you can focus on selling.',
         ],
         ['type' => 'trust'],
         [
@@ -23,7 +24,7 @@ return [
             'items'   => [
                 ['icon' => 'box', 'title' => 'Product preparation & packaging', 'text' => 'Poly bagging, bubble wrapping and bundling to Amazon’s requirements, so stock arrives in perfect condition.'],
                 ['icon' => 'clipboard', 'title' => 'FNSKU labelling & barcodes', 'text' => 'Every unit labelled correctly with Amazon FNSKU labels and compliant barcodes before it reaches a fulfilment centre.'],
-                ['icon' => 'truck', 'title' => 'Shipping to fulfilment centres', 'text' => 'Deliveries to Amazon warehouses across the UK, Europe and globally — from small parcel deliveries (SPD) to full truckloads (FTL).'],
+                ['icon' => 'truck', 'title' => 'Shipping to fulfilment centres', 'text' => 'Deliveries to Amazon warehouses across the UK, Europe and globally - from small parcel deliveries (SPD) to full truckloads (FTL).'],
                 ['icon' => 'warehouse', 'title' => 'Inventory management & replenishment', 'text' => 'Secure storage, stock tracking and timely replenishment to keep your listings live and avoid stock-outs.'],
             ],
         ],
@@ -34,7 +35,7 @@ return [
             'title'      => 'Built around Amazon’s rules',
             'paragraphs' => [
                 'Amazon has strict requirements for packaging, labelling and shipping into its fulfilment centres. Get them wrong and you risk refused deliveries, delays or extra fees.',
-                'We prepare every shipment to Amazon’s guidelines and coordinate directly with Amazon warehouses for smooth delivery and check-in — whether you’re sending a single product line or managing many SKUs.',
+                'We prepare every shipment to Amazon’s guidelines and coordinate directly with Amazon warehouses for smooth delivery and check-in - whether you’re sending a single product line or managing many SKUs.',
             ],
             'checklist'  => ['Amazon-compliant packaging', 'FNSKU labels & barcoding', 'Poly bagging & bubble wrap', 'Bundling & kitting', 'Warehouse booking coordination'],
         ],
@@ -46,7 +47,7 @@ return [
             'items'   => [
                 ['icon' => 'search', 'title' => 'Inventory tracking', 'text' => 'Real-time updates on stock levels help you avoid both stock-outs and overstocking.'],
                 ['icon' => 'route', 'title' => 'UK & EU shipping', 'text' => 'Domestic and international shipping to Amazon fulfilment centres, with customs clearance handled where needed.'],
-                ['icon' => 'pound', 'title' => 'Cost-effective pricing', 'text' => 'Competitive rates across packaging, labelling, shipping and customs — tailored to your volume and budget.'],
+                ['icon' => 'pound', 'title' => 'Cost-effective pricing', 'text' => 'Competitive rates across packaging, labelling, shipping and customs - tailored to your volume and budget.'],
             ],
         ],
         [
@@ -55,7 +56,7 @@ return [
             'title'   => 'An FBA partner that scales with you',
             'items'   => [
                 ['title' => 'Amazon compliance expertise', 'text' => 'We know fulfilment centre guidelines inside out, so your stock meets them first time.'],
-                ['title' => 'One streamlined process', 'text' => 'Prep, storage, shipping and customs managed by one team — less complexity, more time saved.'],
+                ['title' => 'One streamlined process', 'text' => 'Prep, storage, shipping and customs managed by one team - less complexity, more time saved.'],
                 ['title' => 'Dedicated support', 'text' => 'A responsive team on hand at every step of your logistics process.'],
                 ['title' => 'Scalable solutions', 'text' => 'Flexible services for new sellers and growing brands alike, shipping from North East England or anywhere in the UK.'],
             ],
@@ -73,7 +74,7 @@ return [
             'type'  => 'faq',
             'title' => 'Amazon FBA logistics questions',
             'items' => [
-                ['q' => 'Can you label my products with FNSKU barcodes?', 'a' => 'Yes. We manage the full FNSKU labelling process — applying barcodes and following Amazon’s labelling specifications — before stock is sent to a fulfilment centre.'],
+                ['q' => 'Can you label my products with FNSKU barcodes?', 'a' => 'Yes. We manage the full FNSKU labelling process - applying barcodes and following Amazon’s labelling specifications - before stock is sent to a fulfilment centre.'],
                 ['q' => 'Which Amazon fulfilment centres do you deliver to?', 'a' => 'We deliver to Amazon fulfilment centres across the UK and Europe, and can arrange shipments further afield. We coordinate delivery with the receiving warehouse for you.'],
                 ['q' => 'Do you handle small shipments as well as full loads?', 'a' => 'Yes. We handle everything from small parcel deliveries (SPD) to full truckloads (FTL), so the service works whether you’re just starting out or scaling up.'],
                 ['q' => 'Can you store my stock before it goes to Amazon?', 'a' => 'Yes. We offer safe, secure storage for your inventory and can replenish Amazon stock as needed to keep your listings available.'],

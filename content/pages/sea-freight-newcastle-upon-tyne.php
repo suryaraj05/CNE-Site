@@ -8,11 +8,12 @@ return [
     'sections'    => [
         [
             'type'              => 'hero',
+            'image'   => asset_img('sea'),
             'quote'             => true,
             'quote_placeholder' => 'e.g. Shanghai → Port of Tyne',
             'eyebrow'           => 'Sea freight forwarding',
             'title'             => 'Sea freight for imports and exports across the UK',
-            'lead'              => 'Reliable, cost-effective ocean freight from Newcastle upon Tyne — whether you’re bringing goods in from global suppliers or exporting to international markets.',
+            'lead'              => 'Reliable, cost-effective ocean freight from Newcastle upon Tyne - whether you’re bringing goods in from global suppliers or exporting to international markets.',
         ],
         ['type' => 'trust'],
         [
@@ -36,7 +37,7 @@ return [
             'eyebrow'    => 'Nationwide port coverage',
             'title'      => 'Connected to every major UK port',
             'paragraphs' => [
-                'We operate through all major UK ports — including Felixstowe, Southampton, Port of Tyne, Teesport and Liverpool — giving you seamless connections to global shipping routes.',
+                'We operate through all major UK ports - including Felixstowe, Southampton, Port of Tyne, Teesport and Liverpool - giving you seamless connections to global shipping routes.',
                 'Choose Full Container Load (FCL) when you have the volume to fill a container, or Less than Container Load (LCL) to share space and pay only for what you use. We partner with trusted carriers to keep rates competitive without compromising on reliability.',
             ],
             'checklist'  => ['Felixstowe', 'Southampton', 'Port of Tyne', 'Teesport', 'Liverpool'],
@@ -60,7 +61,7 @@ return [
             'items'       => [
                 ['title' => 'Customs expertise', 'text' => 'Compliance with UK and international regulations for imports and exports, minimising delays.'],
                 ['title' => 'Flexible FCL & LCL', 'text' => 'Cost-effective options for large and small consignments alike.'],
-                ['title' => 'Competitive pricing', 'text' => 'Sea freight is one of the most economical ways to trade internationally — we keep it that way.'],
+                ['title' => 'Competitive pricing', 'text' => 'Sea freight is one of the most economical ways to trade internationally - we keep it that way.'],
                 ['title' => 'Personal service', 'text' => 'From Aberdeen, Newcastle and Sunderland to London, Liverpool and Southampton, one team looks after you.'],
             ],
             'testimonial' => [

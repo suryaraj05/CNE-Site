@@ -1,7 +1,14 @@
-.git
-.env
-.env.*
 node_modules
-dist
+.git
+.github
 current pdfs
 ui
+.env
+.env.*
+*.md
+agent-transcripts
+.cursor
+dist
+_tmp_*
+image.png
+hero.png

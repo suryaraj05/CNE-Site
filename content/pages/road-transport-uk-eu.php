@@ -8,11 +8,12 @@ return [
     'sections'    => [
         [
             'type'              => 'hero',
+            'image'   => asset_img('road'),
             'quote'             => true,
             'quote_placeholder' => 'e.g. Newcastle → Rotterdam',
             'eyebrow'           => 'Road freight · UK & EU',
             'title'             => 'Road transport between the UK and EU',
-            'lead'              => 'Cross-border road freight with the post-Brexit customs paperwork handled for you — for UK businesses and EU-based companies moving goods in either direction.',
+            'lead'              => 'Cross-border road freight with the post-Brexit customs paperwork handled for you - for UK businesses and EU-based companies moving goods in either direction.',
         ],
         ['type' => 'trust'],
         [
@@ -23,7 +24,7 @@ return [
             'items'   => [
                 ['icon' => 'truck', 'title' => 'UK road transport', 'text' => 'Domestic deliveries across the UK, including major hubs such as London, Manchester, Birmingham and Newcastle.'],
                 ['icon' => 'route', 'title' => 'EU road freight', 'text' => 'Cross-border transport to and from France, Germany, Spain, the Netherlands and other EU countries.'],
-                ['icon' => 'box', 'title' => 'FTL & LTL options', 'text' => 'Full truckload or less-than-truckload — regular runs or one-off deliveries, scheduled around your timeline.'],
+                ['icon' => 'box', 'title' => 'FTL & LTL options', 'text' => 'Full truckload or less-than-truckload - regular runs or one-off deliveries, scheduled around your timeline.'],
                 ['icon' => 'shield', 'title' => 'Customs on both sides', 'text' => 'Customs documentation for UK and EU borders, including indirect clearance for non-UK residents.'],
             ],
         ],
@@ -64,7 +65,7 @@ return [
         [
             'type'  => 'steps',
             'items' => [
-                ['title' => 'Quote', 'text' => 'Tell us the route, goods and timings — FTL or LTL.'],
+                ['title' => 'Quote', 'text' => 'Tell us the route, goods and timings - FTL or LTL.'],
                 ['title' => 'Collect', 'text' => 'We collect your goods on a schedule that suits you.'],
                 ['title' => 'Clear customs', 'text' => 'We file the UK and EU paperwork for the border crossing.'],
                 ['title' => 'Deliver', 'text' => 'Your goods arrive on time, tracked all the way.'],

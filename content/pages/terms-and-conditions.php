@@ -69,28 +69,28 @@ return [
 <h2>Limits of liability for cargo claims</h2>
 <p>Cargo liability limits refer to the maximum amount of insurance cover (that is, the amount of money) that an insurer will provide for the loss of or damage to goods being transported.</p>
 
-<h3>By sea — Hague-Visby Rules</h3>
+<h3>By sea - Hague-Visby Rules</h3>
 <ul>
 <li>£2.12 per kg (SDR 2.00 per kg)</li>
 <li>£706.70 per package (SDR 666.67 per package)</li>
 </ul>
 
-<h3>By road — CMR</h3>
+<h3>By road - CMR</h3>
 <ul>
 <li>£8.83 per kg (SDR 8.33 per kg)</li>
 </ul>
 
-<h3>By air — Montreal Convention</h3>
+<h3>By air - Montreal Convention</h3>
 <ul>
 <li>£23.32 per kg (SDR 22.00 per kg)</li>
 </ul>
 
-<h3>By air — Warsaw Convention</h3>
+<h3>By air - Warsaw Convention</h3>
 <ul>
 <li>£18.02 per kg (SDR 17.00 per kg)</li>
 </ul>
 
-<h3>By STC — BIFA</h3>
+<h3>By STC - BIFA</h3>
 <ul>
 <li>£2.12 per kg (SDR 2.00 per kg)</li>
 </ul>

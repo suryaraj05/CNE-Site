@@ -8,11 +8,12 @@ return [
     'sections'    => [
         [
             'type'              => 'hero',
+            'image'   => asset_img('airport'),
             'quote'             => true,
             'quote_placeholder' => 'e.g. Shanghai → London (LHR)',
             'eyebrow'           => 'Air freight & customs clearance',
             'title'             => 'Air freight to London via Heathrow',
-            'lead'              => 'Reliable air cargo into the UK’s largest gateway — with full customs clearance handled end to end, from booking through to final delivery.',
+            'lead'              => 'Reliable air cargo into the UK’s largest gateway - with full customs clearance handled end to end, from booking through to final delivery.',
         ],
         ['type' => 'trust'],
         [
@@ -34,7 +35,7 @@ return [
             'title'      => 'Customs, handled properly',
             'paragraphs' => [
                 'When goods arrive at Heathrow they must be declared to HMRC through the Customs Declaration Service (CDS) before release. Getting the detail right keeps your cargo moving and avoids costly holds.',
-                'We prepare and submit the declaration for you, confirm the right commodity codes, and make sure duty and import VAT are accounted for correctly — including postponed VAT accounting where it applies.',
+                'We prepare and submit the declaration for you, confirm the right commodity codes, and make sure duty and import VAT are accounted for correctly - including postponed VAT accounting where it applies.',
             ],
             'checklist'  => ['HMRC & CDS declarations', 'EORI number guidance', 'Commodity code classification', 'Duty & import VAT', 'Postponed VAT accounting'],
         ],
@@ -43,7 +44,7 @@ return [
             'eyebrow'     => 'Why Cargo Northeast',
             'title'       => 'A customs partner, not just a carrier',
             'items'       => [
-                ['title' => 'One point of contact', 'text' => 'The same team handles your freight and your customs — no hand-offs.'],
+                ['title' => 'One point of contact', 'text' => 'The same team handles your freight and your customs - no hand-offs.'],
                 ['title' => 'Compliance done right', 'text' => 'BIFA member, trading under BIFA terms, with HMRC/CDS declarations filed correctly.'],
                 ['title' => 'Clear, quick answers', 'text' => 'Straight talk on documents, duty and timings before your cargo moves.'],
             ],
@@ -66,8 +67,8 @@ return [
             'type'  => 'faq',
             'title' => 'Heathrow air freight questions',
             'items' => [
-                ['q' => 'How does Heathrow air freight customs work?', 'a' => 'Arriving goods must be declared to HMRC through CDS before release. Duty and import VAT may apply depending on the goods and their origin — we handle the declaration for you.'],
-                ['q' => 'What documents do I need?', 'a' => 'Usually a commercial invoice, packing list and the air waybill, plus your EORI number. Some goods also need licences or certificates — we check everything before your cargo flies.'],
+                ['q' => 'How does Heathrow air freight customs work?', 'a' => 'Arriving goods must be declared to HMRC through CDS before release. Duty and import VAT may apply depending on the goods and their origin - we handle the declaration for you.'],
+                ['q' => 'What documents do I need?', 'a' => 'Usually a commercial invoice, packing list and the air waybill, plus your EORI number. Some goods also need licences or certificates - we check everything before your cargo flies.'],
                 ['q' => 'How can I avoid delays at Heathrow?', 'a' => 'Accurate commodity codes, complete invoices and having your EORI and VAT details ready are the biggest factors. Sending us documents before departure lets us prepare the declaration in advance.'],
                 ['q' => 'Do you handle both import and export?', 'a' => 'Yes. We handle import and export declarations at Heathrow, along with the air freight booking and collection or delivery anywhere in the UK.'],
             ],

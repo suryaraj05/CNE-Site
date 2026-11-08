@@ -17,6 +17,18 @@ if ($path === '/sitemap.xml') {
     exit;
 }
 
+if (str_starts_with($path, '/api/')) {
+    require __DIR__ . '/includes/api.php';
+    handle_api(rtrim($path, '/') ?: '/api');
+    exit;
+}
+
+if (str_starts_with($path, '/admin')) {
+    require __DIR__ . '/includes/admin.php';
+    handle_admin(rtrim($path, '/') ?: '/admin');
+    exit;
+}
+
 $redirect = (require __DIR__ . '/includes/redirects.php')($path);
 if ($redirect !== null) {
     $query = $_SERVER['QUERY_STRING'] ?? '';
@@ -29,6 +41,7 @@ $page = null;
 
 if ($slug === '') {
     $page = require CONTENT_DIR . '/pages/home.php';
+    $slug = 'home';
 } elseif (preg_match('~^[a-z0-9-]+$~', $slug)) {
     if (is_file($file = CONTENT_DIR . "/pages/$slug.php")) {
         $page = require $file;
@@ -41,7 +54,10 @@ if ($page === null) {
     http_response_code(404);
     $page = require CONTENT_DIR . '/pages/_404.php';
 } else {
-    $page['path'] ??= $slug === '' ? '/' : "/$slug/";
+    $page['path'] ??= $slug === 'home' ? '/' : "/$slug/";
+    if ($slug !== '' && $slug !== '_404') {
+        $page = apply_page_overrides($page, $slug);
+    }
 }
 
 render_page($page);

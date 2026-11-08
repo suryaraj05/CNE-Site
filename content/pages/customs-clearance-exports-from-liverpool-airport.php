@@ -12,7 +12,7 @@ return [
             'quote_placeholder' => 'e.g. Liverpool (LPL) → Singapore',
             'eyebrow'           => 'Liverpool air freight & customs',
             'title'             => 'Export customs clearance from Liverpool Airport',
-            'lead'              => 'Export documentation, customs declarations and air freight for businesses shipping from Liverpool — coordinated by one team from preparation to departure.',
+            'lead'              => 'Export documentation, customs declarations and air freight for businesses shipping from Liverpool - coordinated by one team from preparation to departure.',
         ],
         ['type' => 'trust'],
         [
@@ -34,7 +34,7 @@ return [
             'title'      => 'Exports that leave on schedule',
             'paragraphs' => [
                 'Export clearance involves more than getting cargo to the airport. Before goods leave the UK, an export declaration must be submitted to HMRC through the Customs Declaration Service (CDS), with accurate shipment information that meets HMRC requirements.',
-                'We check your EORI number, prepare the declaration and commercial documents, and advise on duty and VAT — including VAT relief on exports where it applies. If HMRC has a query, we handle the communication so your shipment isn’t held back.',
+                'We check your EORI number, prepare the declaration and commercial documents, and advise on duty and VAT - including VAT relief on exports where it applies. If HMRC has a query, we handle the communication so your shipment isn’t held back.',
             ],
             'checklist'  => ['CDS export declarations', 'EORI number checks', 'Commercial documentation', 'Export VAT relief guidance', 'HMRC query handling'],
         ],
@@ -64,7 +64,7 @@ return [
             'title' => 'Liverpool export customs questions',
             'items' => [
                 ['q' => 'What is export customs clearance?', 'a' => 'Declaring goods to customs before they leave the country. It involves submitting accurate documentation and shipment details so the goods can be legally exported and loaded for international transport.'],
-                ['q' => 'What documents are needed for export clearance at Liverpool?', 'a' => 'Commonly a commercial invoice, a packing list, an air waybill and an export declaration. Some shipments need licences or certificates of origin — we’ll advise on yours.'],
+                ['q' => 'What documents are needed for export clearance at Liverpool?', 'a' => 'Commonly a commercial invoice, a packing list, an air waybill and an export declaration. Some shipments need licences or certificates of origin - we’ll advise on yours.'],
                 ['q' => 'Can you handle urgent or time-sensitive exports?', 'a' => 'Yes. Air freight suits urgent consignments, and we coordinate customs and freight arrangements together to keep time-sensitive goods moving.'],
                 ['q' => 'How can I avoid delays with export clearance?', 'a' => 'Most delays come from incomplete or inaccurate paperwork. Provide correct commodity descriptions, values and consignee details, and send documents in good time.'],
             ],

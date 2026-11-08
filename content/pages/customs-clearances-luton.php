@@ -12,7 +12,7 @@ return [
             'quote_placeholder' => 'e.g. Istanbul → London Luton (LTN)',
             'eyebrow'           => 'London Luton (LTN) customs clearance',
             'title'             => 'Customs clearance at London Luton Airport',
-            'lead'              => 'Air freight and customs for goods moving through Luton — handled together from the start, so commercial stock, spare parts and urgent cargo keep moving.',
+            'lead'              => 'Air freight and customs for goods moving through Luton - handled together from the start, so commercial stock, spare parts and urgent cargo keep moving.',
         ],
         ['type' => 'trust'],
         [
@@ -35,7 +35,7 @@ return [
             'title'      => 'What clearing goods at Luton involves',
             'paragraphs' => [
                 'Every import into or export from the UK must be declared to HMRC, mostly through the Customs Declaration Service (CDS). Declarations typically include a description of the goods, commodity code, value, country of origin and transport details, and businesses usually need an EORI number to make them.',
-                'Imported goods may also attract customs duty and import VAT, depending on the commodity code, value and origin. VAT-registered businesses may be able to use postponed VAT accounting. Incomplete information is the most common reason clearance takes longer than expected — so we get it right first time.',
+                'Imported goods may also attract customs duty and import VAT, depending on the commodity code, value and origin. VAT-registered businesses may be able to use postponed VAT accounting. Incomplete information is the most common reason clearance takes longer than expected - so we get it right first time.',
             ],
             'checklist'  => ['HMRC & CDS declarations', 'EORI number guidance', 'Commodity codes', 'Duty & import VAT', 'Postponed VAT accounting'],
         ],

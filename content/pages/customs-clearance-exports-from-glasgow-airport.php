@@ -23,7 +23,7 @@ return [
             'intro'   => 'Missing paperwork or an incorrect declaration can ground your cargo and cost you time and money. We check the detail before your goods reach the airport.',
             'items'   => [
                 ['icon' => 'send', 'title' => 'Export declarations', 'text' => 'Export declarations prepared and submitted to HMRC through the Customs Declaration Service (CDS).'],
-                ['icon' => 'clipboard', 'title' => 'Commodity classification', 'text' => 'The right commodity codes assigned — they affect duty rates, licensing and the accuracy of your declaration.'],
+                ['icon' => 'clipboard', 'title' => 'Commodity classification', 'text' => 'The right commodity codes assigned - they affect duty rates, licensing and the accuracy of your declaration.'],
                 ['icon' => 'lock', 'title' => 'Licences & restricted goods', 'text' => 'Goods that need an export licence or extra checks flagged before they reach the airport.'],
                 ['icon' => 'box', 'title' => 'Imports into Glasgow', 'text' => 'Import declarations, duty and VAT calculations and release of your goods as quickly as the rules allow.'],
             ],
@@ -35,7 +35,7 @@ return [
             'title'      => 'Declared correctly before departure',
             'paragraphs' => [
                 'Every commercial shipment leaving the UK must be declared to HMRC before it can depart. The declaration records what you’re sending, its value, its commodity code and its destination. If any detail is wrong, goods can be held at the airport, shipments delayed and penalties incurred.',
-                'We check your GB EORI number, prepare and submit the declaration, and explain how duty and VAT apply — including the proof of export you need to keep for VAT zero-rating. We liaise with airlines and handling agents so documents and goods arrive together.',
+                'We check your GB EORI number, prepare and submit the declaration, and explain how duty and VAT apply - including the proof of export you need to keep for VAT zero-rating. We liaise with airlines and handling agents so documents and goods arrive together.',
             ],
             'checklist'  => ['CDS export declarations', 'EORI number checks', 'Commodity codes', 'Export licence checks', 'Export VAT zero-rating evidence'],
         ],
@@ -67,7 +67,7 @@ return [
                 ['q' => 'Do I need an EORI number to export from Glasgow Airport?', 'a' => 'In most cases, yes. A GB EORI number is generally required to make export declarations to HMRC. If you don’t have one, we can guide you through registering before your first shipment.'],
                 ['q' => 'Are export declarations required for every shipment?', 'a' => 'Commercial goods leaving the UK usually need a declaration, though requirements vary by goods, value and destination. We’ll confirm what applies to your shipment before it travels.'],
                 ['q' => 'How do duty and VAT apply to exports?', 'a' => 'UK exports are generally zero-rated for VAT, provided you hold valid proof of export. Duty may be payable in the destination country, depending on the goods and local rules.'],
-                ['q' => 'Why use a customs broker instead of declaring it myself?', 'a' => 'A broker reduces the risk of incorrect declarations, saves you time and handles communication with HMRC, airlines and cargo handlers — especially useful if you ship regularly or deal with restricted goods.'],
+                ['q' => 'Why use a customs broker instead of declaring it myself?', 'a' => 'A broker reduces the risk of incorrect declarations, saves you time and handles communication with HMRC, airlines and cargo handlers - especially useful if you ship regularly or deal with restricted goods.'],
             ],
         ],
         ['type' => 'cta', 'title' => 'Exporting goods from Glasgow?'],

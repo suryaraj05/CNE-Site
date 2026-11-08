@@ -8,10 +8,11 @@ return [
     'sections'    => [
         [
             'type'      => 'hero',
+            'image'   => asset_img('air'),
             'quote'     => false,
             'eyebrow'   => 'UK airports',
             'title'     => 'Air freight & customs clearance at UK airports',
-            'lead'      => 'Import and export declarations, air freight and onward delivery at airports across the UK — from London’s gateways to the Midlands, the North, Wales and Scotland.',
+            'lead'      => 'Import and export declarations, air freight and onward delivery at airports across the UK - from London’s gateways to the Midlands, the North, Wales and Scotland.',
             'primary'   => ['Get a quote', '/request-a-quote/'],
         ],
         [
@@ -46,7 +47,7 @@ return [
             'eyebrow'    => 'Clearing at any UK airport',
             'title'      => 'One team, wherever your cargo lands',
             'paragraphs' => [
-                'Customs declarations are submitted electronically to HMRC through the Customs Declaration Service (CDS), so we can clear shipments at any UK airport — not just the ones listed here — from our office at Newcastle Airport.',
+                'Customs declarations are submitted electronically to HMRC through the Customs Declaration Service (CDS), so we can clear shipments at any UK airport - not just the ones listed here - from our office at Newcastle Airport.',
                 'The essentials are the same everywhere: an accurate commercial invoice, the right commodity codes, a valid EORI number, and duty and import VAT accounted for correctly. We check the detail before your cargo flies, so it clears without delay on arrival.',
             ],
             'checklist'  => ['Import & export declarations', 'HMRC & CDS filing', 'EORI number guidance', 'Duty & import VAT', 'Onward UK delivery'],
@@ -57,7 +58,7 @@ return [
             'items' => [
                 ['q' => 'Can you clear goods at an airport not listed here?', 'a' => 'Yes. Declarations are filed electronically to HMRC through CDS, so we can clear shipments arriving at or departing from any UK airport. Contact us with your shipment details.'],
                 ['q' => 'Do I need to be near the airport to use you?', 'a' => 'No. We work with importers and exporters across the UK, arranging collection from the airport and onward delivery to your premises or customer.'],
-                ['q' => 'What do you need from me to clear an air shipment?', 'a' => 'Usually a commercial invoice, packing list and air waybill, plus your EORI number. Some goods also need licences or certificates — we’ll tell you before your cargo moves.'],
+                ['q' => 'What do you need from me to clear an air shipment?', 'a' => 'Usually a commercial invoice, packing list and air waybill, plus your EORI number. Some goods also need licences or certificates - we’ll tell you before your cargo moves.'],
             ],
         ],
         ['type' => 'cta', 'title' => 'Shipping through a UK airport?'],

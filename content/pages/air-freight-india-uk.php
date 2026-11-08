@@ -23,7 +23,7 @@ return [
             'eyebrow'    => 'Air freight from India',
             'title'      => 'Air freight from just Rs.325/kg',
             'paragraphs' => [
-                'We simplify importing from India to the UK. Your goods are collected in India, flown to the UK, cleared through UK customs and delivered to their final destination — typically within 7–10 days, door to door.',
+                'We simplify importing from India to the UK. Your goods are collected in India, flown to the UK, cleared through UK customs and delivered to their final destination - typically within 7–10 days, door to door.',
                 'UK customs clearance is included free of charge, so there are no surprise agency fees when your cargo lands.',
             ],
             'checklist'  => ['From Rs.325/kg by air', 'Door-to-door in 7–10 days', 'Free UK customs clearance', 'Bonded warehouse storage', 'Last-mile UK delivery'],
@@ -60,7 +60,7 @@ return [
             'title'   => 'Reliable, timely and secure',
             'items'   => [
                 ['title' => 'One partner, both ends', 'text' => 'Offices in Mumbai and Newcastle manage your shipment from collection to delivery.'],
-                ['title' => 'Customs included', 'text' => 'UK customs clearance comes free with your freight — no separate broker needed.'],
+                ['title' => 'Customs included', 'text' => 'UK customs clearance comes free with your freight - no separate broker needed.'],
                 ['title' => 'Secure handling', 'text' => 'Bonded storage and careful handling for every consignment.'],
             ],
         ],
@@ -77,7 +77,7 @@ return [
             'type'  => 'faq',
             'title' => 'India to UK freight questions',
             'items' => [
-                ['q' => 'How much does air freight from India to the UK cost?', 'a' => 'Air freight starts from Rs.325 per kg. The final price depends on weight, dimensions and the type of goods — contact us for a tailored quote.'],
+                ['q' => 'How much does air freight from India to the UK cost?', 'a' => 'Air freight starts from Rs.325 per kg. The final price depends on weight, dimensions and the type of goods - contact us for a tailored quote.'],
                 ['q' => 'How long does delivery take?', 'a' => 'Door-to-door delivery from India to the UK by air typically takes 7–10 days.'],
                 ['q' => 'Is UK customs clearance included?', 'a' => 'Yes. UK customs clearance is included free with our India to UK air freight service.'],
                 ['q' => 'Do you offer sea freight from India?', 'a' => 'Yes. For larger or less urgent consignments we can arrange sea freight into UK ports, with customs clearance and delivery handled the same way.'],

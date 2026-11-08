@@ -1,6 +1,6 @@
 <?php
 return [
-    'title'       => 'China to UK Freight — Air & Sea Imports | Cargo Northeast',
+    'title'       => 'China to UK Freight - Air & Sea Imports | Cargo Northeast',
     'description' => 'China to UK freight by air and sea, FCL or LCL, with customs clearance at Felixstowe, Southampton, London Gateway, Teesport and Liverpool. Request a quote.',
     'breadcrumbs' => [['Global services', '/services/']],
     'crumb'       => 'Importing from China',
@@ -8,11 +8,12 @@ return [
     'sections'    => [
         [
             'type'              => 'hero',
+            'image'   => asset_img('china'),
             'quote'             => true,
             'quote_placeholder' => 'e.g. Shenzhen → Newcastle',
             'eyebrow'           => 'China to UK logistics',
             'title'             => 'Importing from China to the UK, made affordable',
-            'lead'              => 'Cost-effective air and sea freight from China, with customs clearance at every major UK port and delivery to your door — for commercial cargo and e-commerce consignments alike.',
+            'lead'              => 'Cost-effective air and sea freight from China, with customs clearance at every major UK port and delivery to your door - for commercial cargo and e-commerce consignments alike.',
         ],
         ['type' => 'trust'],
         [
@@ -23,7 +24,7 @@ return [
             'intro'   => 'We optimise every stage of the journey for cost and performance, so you get reliable service without the premium price tag.',
             'items'   => [
                 ['icon' => 'send', 'title' => 'Air freight from China', 'text' => 'Fast, affordable air freight for urgent or high-value shipments that need to land quickly.'],
-                ['icon' => 'ship', 'title' => 'Sea freight — FCL & LCL', 'text' => 'Full Container Load for high volumes, or Less than Container Load to share space and cut costs on smaller shipments.'],
+                ['icon' => 'ship', 'title' => 'Sea freight - FCL & LCL', 'text' => 'Full Container Load for high volumes, or Less than Container Load to share space and cut costs on smaller shipments.'],
                 ['icon' => 'shield', 'title' => 'UK customs clearance', 'text' => 'Import declarations filed with HMRC through CDS at all UK ports, with duty and import VAT handled correctly.'],
                 ['icon' => 'truck', 'title' => 'Collection & UK delivery', 'text' => 'Pickup from your supplier in China and onward delivery to your warehouse, store or customer in the UK.'],
             ],
@@ -34,7 +35,7 @@ return [
             'eyebrow'    => 'Nationwide port access',
             'title'      => 'Cleared at whichever UK port suits your cargo',
             'paragraphs' => [
-                'We handle China to UK shipments through all major UK ports — from Felixstowe, Southampton and London Gateway in the south to Teesport and Liverpool in the north — choosing the route that keeps your costs down.',
+                'We handle China to UK shipments through all major UK ports - from Felixstowe, Southampton and London Gateway in the south to Teesport and Liverpool in the north - choosing the route that keeps your costs down.',
                 'Wherever your shipment arrives, our team prepares the import declaration, confirms commodity codes and accounts for duty and import VAT, including postponed VAT accounting where it applies. Getting the paperwork right first time avoids delays, storage charges and surprise costs.',
             ],
             'checklist'  => ['Felixstowe', 'Southampton', 'London Gateway', 'Teesport', 'Liverpool'],
@@ -83,7 +84,7 @@ return [
                 ['q' => 'What is the difference between FCL and LCL?', 'a' => 'With FCL (Full Container Load) you have a container to yourself, which suits high volumes. With LCL (Less than Container Load) your goods share a container with other shipments, so you only pay for the space you use.'],
                 ['q' => 'Which UK ports do you clear China shipments through?', 'a' => 'All major UK ports, including Felixstowe, Southampton, London Gateway, Teesport and Liverpool. Customs declarations are submitted electronically to HMRC, so we can clear your goods wherever they arrive.'],
                 ['q' => 'Will I pay duty and VAT on goods from China?', 'a' => 'Most commercial imports attract import VAT, and many also carry customs duty depending on the commodity code. VAT-registered businesses can often use postponed VAT accounting. We confirm the correct codes and charges before your goods arrive.'],
-                ['q' => 'What do I need to import from China?', 'a' => 'Typically a GB EORI number, a commercial invoice, a packing list and the bill of lading or air waybill. Some goods need extra certificates or licences — we check your paperwork before the cargo leaves China.'],
+                ['q' => 'What do I need to import from China?', 'a' => 'Typically a GB EORI number, a commercial invoice, a packing list and the bill of lading or air waybill. Some goods need extra certificates or licences - we check your paperwork before the cargo leaves China.'],
             ],
         ],
         ['type' => 'cta', 'title' => 'Ready to import from China for less?'],

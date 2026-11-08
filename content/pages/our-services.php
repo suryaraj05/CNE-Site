@@ -1,6 +1,6 @@
 <?php
 return [
-    'title'       => 'Our Services — Customs & Freight UK & EU | Cargo Northeast',
+    'title'       => 'Our Services - Customs & Freight UK & EU | Cargo Northeast',
     'description' => 'Cargo Northeast services: customs clearance, air, sea and road freight, China to UK imports, Amazon FBA, baggage to India and China, house moves and storage.',
     'breadcrumbs' => [],
     'crumb'       => 'Our services',
@@ -8,18 +8,21 @@ return [
         [
             'type'    => 'hero',
             'quote'   => false,
+            'image'   => asset_img('airport'),
             'primary' => ['Get a quote', '/request-a-quote/'],
             'eyebrow' => 'Our services',
             'title'   => 'Logistics solutions across the UK & EU',
-            'lead'    => 'Customs clearance and air, sea and road freight for businesses across the North East, Scotland and the rest of the UK — every step handled with precision and care.',
+            'lead'    => 'Customs clearance and air, sea and road freight for businesses across the North East, Scotland and the rest of the UK - every step handled with precision and care.',
         ],
         [
             'type'    => 'prose',
             'id'      => 'introduction',
+            'image'   => asset_img('sea'),
+            'image_alt'=> 'Sea freight containers at port',
             'eyebrow' => 'Introduction',
             'title'   => 'Comprehensive logistics in Scotland and the UK',
             'html'    => '<p>Cargo Northeast Ltd specialises in <strong>comprehensive logistics solutions in Scotland and the UK</strong>, giving businesses efficient, cost-effective service. From navigating the complexities of <a href="/customs-clearance-service-uk/">customs clearance</a> to timely delivery by <a href="/road-transport-uk-eu/">road</a>, <a href="/all-airports/">air</a> and <a href="/sea-freight-newcastle-upon-tyne/">sea freight</a>, we handle every step with precision and care.</p>
-<p>Operating from key locations in the North East and Scotland — including the Port of Tyne, Teesport and Sunderland, alongside other major transport hubs — we’re equipped for both local and international logistics. Partner with Cargo Northeast to streamline your logistics and strengthen your supply chain.</p>',
+<p>Operating from key locations in the North East and Scotland - including the Port of Tyne, Teesport and Sunderland, alongside other major transport hubs - we’re equipped for both local and international logistics. Partner with Cargo Northeast to streamline your logistics and strengthen your supply chain.</p>',
         ],
         [
             'type'    => 'features',
@@ -29,10 +32,10 @@ return [
             'title'   => 'Customs clearance and transport',
             'intro'   => 'Reliable freight transport across Scotland and the UK, with the customs paperwork handled by the same team.',
             'items'   => [
-                ['icon' => 'shield', 'title' => 'Customs clearance', 'text' => 'Documentation, tariff management and HMRC declarations through CDS for UK imports and exports.', 'href' => '/customs-clearance-service-uk/'],
-                ['icon' => 'plane', 'title' => 'Air freight', 'text' => 'Fast, precise air freight for urgent shipments through every major UK airport.', 'href' => '/all-airports/'],
-                ['icon' => 'ship', 'title' => 'Sea freight', 'text' => 'Cost-effective FCL and LCL shipping for bulk goods on international routes.', 'href' => '/sea-freight-newcastle-upon-tyne/'],
-                ['icon' => 'truck', 'title' => 'Road transport', 'text' => 'Secure, timely road freight within the UK and to and from the EU.', 'href' => '/road-transport-uk-eu/'],
+                ['image' => asset_img('customs'), 'icon' => 'shield', 'title' => 'Customs clearance', 'text' => 'Documentation, tariff management and HMRC declarations through CDS for UK imports and exports.', 'href' => '/customs-clearance-service-uk/'],
+                ['image' => asset_img('air'), 'icon' => 'plane', 'title' => 'Air freight', 'text' => 'Fast, precise air freight for urgent shipments through every major UK airport.', 'href' => '/all-airports/'],
+                ['image' => asset_img('sea'), 'icon' => 'ship', 'title' => 'Sea freight', 'text' => 'Cost-effective FCL and LCL shipping for bulk goods on international routes.', 'href' => '/sea-freight-newcastle-upon-tyne/'],
+                ['image' => asset_img('road'), 'icon' => 'truck', 'title' => 'Road transport', 'text' => 'Secure, timely road freight within the UK and to and from the EU.', 'href' => '/road-transport-uk-eu/'],
             ],
         ],
         [

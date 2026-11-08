@@ -3,3 +3,9 @@ dist/
 .env
 current pdfs/
 ui/
+storage/inbox/**/*.json
+storage/overrides/*.json
+
+_site/
+logo.jpg
+logo-removebg-preview.png

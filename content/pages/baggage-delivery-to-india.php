@@ -12,7 +12,7 @@ return [
             'quote_placeholder' => 'e.g. Newcastle → Mumbai',
             'eyebrow'           => 'Baggage to India · Door to door',
             'title'             => 'Baggage delivery to India from Newcastle and the UK',
-            'lead'              => 'Send personal belongings, excess baggage or business goods from your UK doorstep to any address in India — collection, customs and delivery all handled for you.',
+            'lead'              => 'Send personal belongings, excess baggage or business goods from your UK doorstep to any address in India - collection, customs and delivery all handled for you.',
         ],
         ['type' => 'trust'],
         [
@@ -21,7 +21,7 @@ return [
             'eyebrow' => 'Door-to-door service',
             'title'   => 'We handle every step of the journey',
             'items'   => [
-                ['icon' => 'home', 'title' => 'Collection anywhere in the UK', 'text' => 'We pick up your luggage from your home, office or preferred location — wherever you are in the UK.'],
+                ['icon' => 'home', 'title' => 'Collection anywhere in the UK', 'text' => 'We pick up your luggage from your home, office or preferred location - wherever you are in the UK.'],
                 ['icon' => 'shield', 'title' => 'UK & Indian customs clearance', 'text' => 'Export paperwork in the UK and import clearance in India, so your baggage complies on both sides.'],
                 ['icon' => 'plane', 'title' => 'Air or sea freight', 'text' => 'Choose air for speed or sea for value, depending on your urgency and budget.'],
                 ['icon' => 'map-pin', 'title' => 'Delivery anywhere in India', 'text' => 'Once cleared, your baggage is delivered securely to your chosen address in India.'],
@@ -34,7 +34,7 @@ return [
             'title'      => 'Personal belongings and commercial goods',
             'paragraphs' => [
                 'Whether you’re sending excess baggage, personal effects or business-related items, our team packs and handles your shipment carefully to minimise the risk of damage, with real-time tracking throughout.',
-                'Some items are restricted or prohibited for international shipping — for example flammable liquids, aerosols, compressed gases and loose lithium batteries. Ask us before you pack and we’ll confirm what can travel.',
+                'Some items are restricted or prohibited for international shipping - for example flammable liquids, aerosols, compressed gases and loose lithium batteries. Ask us before you pack and we’ll confirm what can travel.',
             ],
             'checklist'  => ['Excess baggage', 'Personal & household effects', 'Students’ belongings', 'Business goods & equipment', 'Real-time tracking'],
         ],
@@ -45,7 +45,7 @@ return [
             'title'   => 'Who uses our baggage to India service',
             'items'   => [
                 ['icon' => 'home', 'title' => 'Relocating to India', 'text' => 'Moving back home or relocating for work? Ship your personal belongings reliably.'],
-                ['icon' => 'users', 'title' => 'Students', 'text' => 'Returning to India or travelling with excess baggage — a simple, affordable alternative to airline fees.'],
+                ['icon' => 'users', 'title' => 'Students', 'text' => 'Returning to India or travelling with excess baggage - a simple, affordable alternative to airline fees.'],
                 ['icon' => 'building', 'title' => 'Businesses', 'text' => 'Products or equipment to send to India? We manage the entire logistics process.'],
             ],
         ],
@@ -55,7 +55,7 @@ return [
             'eyebrow'    => 'Service locations',
             'title'      => 'From anywhere in the UK to any city in India',
             'paragraphs' => [
-                'We collect across the UK — from Newcastle and North East England to London, Manchester, Birmingham and other major cities.',
+                'We collect across the UK - from Newcastle and North East England to London, Manchester, Birmingham and other major cities.',
                 'We deliver door to door to any city in India, including Mumbai, Delhi, Chennai, Bangalore and Hyderabad. Our own office in Mumbai supports your shipment on arrival.',
             ],
             'checklist'  => ['Newcastle & North East England', 'London, Manchester, Birmingham', 'Mumbai, Delhi, Chennai', 'Bangalore, Hyderabad & beyond'],
@@ -66,7 +66,7 @@ return [
             'title'   => 'Safe, affordable baggage shipping',
             'items'   => [
                 ['title' => 'Clear, competitive pricing', 'text' => 'Transparent rates for personal belongings and commercial goods, with no hidden extras.'],
-                ['title' => 'Full customs transparency', 'text' => 'You always know where your baggage is in the customs process — in the UK and in India.'],
+                ['title' => 'Full customs transparency', 'text' => 'You always know where your baggage is in the customs process - in the UK and in India.'],
                 ['title' => 'Offices in both countries', 'text' => 'Teams in Newcastle and Mumbai look after your shipment from collection to delivery.'],
             ],
         ],

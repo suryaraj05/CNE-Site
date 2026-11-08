@@ -32,7 +32,7 @@ return [
             'eyebrow'    => 'Clearing at any UK port',
             'title'      => 'One team, whichever port your cargo uses',
             'paragraphs' => [
-                'Customs declarations are submitted electronically to HMRC through the Customs Declaration Service (CDS), so we can clear goods arriving at or leaving any UK port — such as Port of Tyne, Teesport, Felixstowe, Southampton, London Gateway or Liverpool — from our office at Newcastle Airport.',
+                'Customs declarations are submitted electronically to HMRC through the Customs Declaration Service (CDS), so we can clear goods arriving at or leaving any UK port - such as Port of Tyne, Teesport, Felixstowe, Southampton, London Gateway or Liverpool - from our office at Newcastle Airport.',
                 'The essentials are the same at every port: an accurate commercial invoice, the right commodity codes, a valid EORI number, and duty and import VAT accounted for correctly. We check the detail before your cargo sails, so containers aren’t held on arrival.',
             ],
             'checklist'  => ['Import & export declarations', 'HMRC & CDS filing', 'EORI number guidance', 'Duty & import VAT', 'Onward UK delivery'],
@@ -43,7 +43,7 @@ return [
             'items' => [
                 ['q' => 'Can you clear goods at a port not listed here?', 'a' => 'Yes. Declarations are filed electronically to HMRC through CDS, so we can clear shipments at any UK port. Contact us with your shipment details.'],
                 ['q' => 'Do I need to be near the port to use you?', 'a' => 'No. We work with importers and exporters across the UK and can arrange haulage from the port to your premises or customer once goods are cleared.'],
-                ['q' => 'What do you need from me to clear a sea shipment?', 'a' => 'Usually a commercial invoice, packing list and bill of lading, plus your EORI number. Some goods also need licences or certificates — we’ll tell you before your cargo ships.'],
+                ['q' => 'What do you need from me to clear a sea shipment?', 'a' => 'Usually a commercial invoice, packing list and bill of lading, plus your EORI number. Some goods also need licences or certificates - we’ll tell you before your cargo ships.'],
                 ['q' => 'Can you arrange the sea freight as well?', 'a' => 'Yes. We arrange FCL and LCL sea freight for imports and exports alongside the customs clearance, so one team looks after the whole shipment.'],
             ],
         ],
