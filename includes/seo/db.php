@@ -93,13 +93,24 @@ function seo_pdo(bool $unpooled = false): PDO
     parse_str($parts['query'] ?? '', $query);
     $ssl = $query['sslmode'] ?? (getenv('DB_SSLMODE') ?: 'require');
 
-    // Neon + older libpq (e.g. XAMPP): pass endpoint id when SNI is unavailable.
+    // Neon SNI: modern libpq (Fly/Linux) sends the hostname correctly — do NOT also
+    // inject options=endpoint=… or Neon returns:
+    // "Inconsistent project name inferred from SNI (...-pooler) and project option (...)"
+    // Older Windows/XAMPP libpq often lacks SNI; set NEON_FORCE_ENDPOINT=1 locally.
     // https://neon.com/docs/connect/connection-errors#sni
     $endpoint = $query['options'] ?? '';
-    if ($endpoint === '' && preg_match('/^(ep-[a-z0-9-]+?)(?:-pooler)?\./i', $host, $m)) {
-        $endpoint = 'endpoint=' . $m[1];
-    } elseif (str_starts_with($endpoint, 'endpoint%3D') || str_starts_with($endpoint, 'endpoint=')) {
+    if ($endpoint !== '') {
         $endpoint = rawurldecode($endpoint);
+        if (!str_starts_with($endpoint, 'endpoint=')) {
+            $endpoint = 'endpoint=' . ltrim($endpoint, '=');
+        }
+    } elseif (
+        (getenv('NEON_FORCE_ENDPOINT') === '1' || PHP_OS_FAMILY === 'Windows')
+        && preg_match('/^(ep-[a-z0-9-]+?)(?:-pooler)?\./i', $host, $m)
+    ) {
+        $endpoint = 'endpoint=' . $m[1];
+    } else {
+        $endpoint = '';
     }
 
     $pdoDsn = "pgsql:host=$host;port=$port;dbname=$db;sslmode=$ssl";
