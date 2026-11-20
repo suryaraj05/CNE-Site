@@ -1,7 +1,7 @@
 <?php
 return [
     'title'       => 'Air Freight & Customs at UK Airports | Cargo Northeast',
-    'description' => 'Air freight and customs clearance at 16 UK airports, including Heathrow, Manchester, East Midlands, Gatwick and Newcastle. HMRC CDS declarations handled.',
+    'description' => 'Air freight and HMRC customs clearance at 16 UK airports including Heathrow, Gatwick, Manchester, East Midlands and Newcastle. Request a quote today.',
     'breadcrumbs' => [],
     'crumb'       => 'All airports',
     'service'     => 'Air freight and customs clearance at UK airports',

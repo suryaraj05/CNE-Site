@@ -1,7 +1,7 @@
 <?php
 return [
     'title'       => 'FAQs: Customs Clearance & Freight | Cargo Northeast',
-    'description' => 'Answers to common questions about UK customs clearance, EORI numbers, air, sea and road freight, Amazon FBA, baggage delivery, house moves and storage.',
+    'description' => 'Common questions about UK customs clearance, EORI, air, sea and road freight, Amazon FBA, baggage delivery and house moves with Cargo Northeast.',
     'breadcrumbs' => [],
     'crumb'       => 'FAQs',
     'sections'    => [

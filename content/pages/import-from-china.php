@@ -1,10 +1,10 @@
 <?php
 return [
-    'title'       => 'China to UK Freight - Air & Sea Imports | Cargo Northeast',
-    'description' => 'China to UK freight by air and sea, FCL or LCL, with customs clearance at Felixstowe, Southampton, London Gateway, Teesport and Liverpool. Request a quote.',
-    'breadcrumbs' => [['Global services', '/services/']],
+    'title'       => 'Import from China to UK — Air & Sea Freight | Cargo Northeast',
+    'description' => 'Import from China to the UK by air or sea (FCL/LCL) with HMRC customs clearance at Felixstowe, Southampton, London Gateway and UK airports. Get a quote.',
+    'breadcrumbs' => [['Global Services', '/services/']],
     'crumb'       => 'Importing from China',
-    'service'     => 'China to UK freight forwarding and customs clearance',
+    'service'     => 'Import from China to UK freight and customs clearance',
     'sections'    => [
         [
             'type'              => 'hero',

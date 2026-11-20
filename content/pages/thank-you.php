@@ -1,8 +1,8 @@
 <?php
 return [
-    'title'       => 'Thank You - Message Received | Cargo Northeast',
-    'description' => 'Thanks for contacting Cargo Northeast. We’ve received your details and will reply within hours on working days. Explore our services while you wait.',
-    'robots'      => 'noindex, follow',
+    'title'       => 'Thank You | Cargo Northeast',
+    'description' => 'Thanks for contacting Cargo Northeast. We’ve received your message and will reply on working days. Explore our customs and freight services.',
+    'robots'      => 'noindex,follow',
     'breadcrumbs' => [],
     'crumb'       => 'Thank you',
     'sections'    => [

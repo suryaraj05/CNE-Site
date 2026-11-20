@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Safe, Affordable Storage in Newcastle | Cargo Northeast',
-    'description' => 'Secure, flexible storage in Newcastle upon Tyne with free collection and delivery. Student storage from £50 per pallet/month across Tyne and Wear and Durham.',
+    'title'       => 'Safe Storage Newcastle | Cargo Northeast',
+    'description' => 'Secure, flexible storage in Newcastle upon Tyne with collection and delivery options. Business and personal storage across Tyne and Wear. Get a quote.',
     'breadcrumbs' => [['Our expertise', '/our-expertise/']],
     'crumb'       => 'Safe storage',
     'service'     => 'Safe storage in Newcastle upon Tyne',

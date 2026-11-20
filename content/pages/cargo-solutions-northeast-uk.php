@@ -1,9 +1,9 @@
 <?php
 return [
-    'title'       => 'Our Mission, Vision & Values | Cargo Northeast',
-    'description' => 'The mission, vision and values behind Cargo Northeast: affordable, efficient, accessible and sustainable cargo solutions for North East England and the UK.',
-    'breadcrumbs' => [['About us', '/customs-clearance-logistics-newcastle-northeast-england/']],
-    'crumb'       => 'Mission, vision & values',
+    'title'       => 'Mission, Vision & Values | Cargo Northeast Ltd',
+    'description' => 'Our mission, vision and values: delivering affordable, efficient and reliable customs clearance and freight solutions across North East England and the UK.',
+    'breadcrumbs' => [['About Us', '/customs-clearance-logistics-newcastle-northeast-england/']],
+    'crumb'       => 'Mission, Vision & Values',
     'sections'    => [
         [
             'type'    => 'hero',

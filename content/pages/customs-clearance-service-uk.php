@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Customs Clearance Service UK & EU | Cargo Northeast',
-    'description' => 'UK customs clearance agent for imports and exports. HMRC CDS declarations, post-Brexit UK–EU compliance, first three clearances free, then £25 each. Get a quote.',
+    'title'       => 'Customs Clearance Service UK | Cargo Northeast',
+    'description' => 'UK customs clearance for imports and exports. HMRC CDS declarations, EORI guidance and UK–EU compliance from Cargo Northeast in Newcastle. Get a quote.',
     'breadcrumbs' => [['Our expertise', '/our-expertise/']],
     'crumb'       => 'Customs clearance',
     'service'     => 'Customs clearance service in the UK and EU',

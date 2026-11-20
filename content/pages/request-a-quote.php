@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Request a Freight & Customs Quote | Cargo Northeast',
-    'description' => 'Request a no-obligation quote for customs clearance, air, sea or road freight, logistics planning or a house move. Send your shipment details in minutes.',
+    'title'       => 'Request a Quote | Customs & Freight | Cargo Northeast',
+    'description' => 'Request a no-obligation quote for customs clearance, air, sea or road freight, logistics or a house move. Send your shipment details to Cargo Northeast.',
     'breadcrumbs' => [],
     'crumb'       => 'Request a quote',
     'sections'    => [

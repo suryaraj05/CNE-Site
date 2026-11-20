@@ -23,6 +23,13 @@ if (str_starts_with($path, '/api/')) {
     exit;
 }
 
+// Custom SEO dashboard (isolated). Must run before /admin prefix match.
+if (str_starts_with($path, '/admin-seo')) {
+    require __DIR__ . '/includes/seo/bootstrap.php';
+    seo_admin_handle(rtrim($path, '/') ?: '/admin-seo');
+    exit;
+}
+
 if (str_starts_with($path, '/admin')) {
     require __DIR__ . '/includes/admin.php';
     handle_admin(rtrim($path, '/') ?: '/admin');

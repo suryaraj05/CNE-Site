@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Baggage Delivery from the UK to China | Cargo Northeast',
-    'description' => 'Door-to-door baggage delivery from the UK to China for personal effects and commercial goods: UK collection, export and import clearance, final delivery.',
+    'title'       => 'Baggage Delivery UK to China | Cargo Northeast',
+    'description' => 'Door-to-door baggage delivery from the UK to China. Collection, export/import clearance and final delivery for personal effects and goods. Get a quote.',
     'breadcrumbs' => [['Global services', '/services/']],
     'crumb'       => 'Baggage to China',
     'service'     => 'Baggage delivery from the UK to China',

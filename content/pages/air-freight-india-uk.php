@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Air & Sea Freight India to UK from Rs.325/kg | Cargo Northeast',
-    'description' => 'Air freight from India to the UK from Rs.325/kg, with free UK customs clearance and door-to-door delivery in 7–10 days. Sea freight options too.',
+    'title'       => 'Air Freight | Export India to UK in 7 Days | From just Rs.325/Kg',
+    'description' => 'Cargo Northeast offers the cheapest air freight from India to the UK with customs clearance included. Fast, and stress-free shipping starting at just Rs.325/Kg',
     'breadcrumbs' => [['Our expertise', '/our-expertise/']],
     'crumb'       => 'Air & sea freight (India to UK)',
     'service'     => 'Air and sea freight from India to the UK',

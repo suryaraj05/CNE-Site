@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Export Customs Clearance at Glasgow Airport | Cargo Northeast',
-    'description' => 'Customs broker for exports from Glasgow Airport (GLA). CDS export declarations, EORI checks, licence checks and VAT zero-rating guidance, plus import clearance.',
+    'title'       => 'Customs Clearance Exports from Glasgow Airport',
+    'description' => 'Fast, compliant customs clearance exports from Glasgow Airport. Work with a professional customs broker in Glasgow to handle HMRC, CDS, EORI and export declarations.',
     'breadcrumbs' => [['Airports', '/all-airports/']],
     'crumb'       => 'Glasgow',
     'service'     => 'Export customs clearance from Glasgow Airport',

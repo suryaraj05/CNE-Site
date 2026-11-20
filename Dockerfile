@@ -10,6 +10,10 @@ COPY index.php ./
 RUN npm run build
 
 FROM php:8.3-cli-alpine
+RUN apk add --no-cache postgresql-libs \
+ && apk add --no-cache --virtual .build-deps $PHPIZE_DEPS postgresql-dev \
+ && docker-php-ext-install pdo_pgsql \
+ && apk del .build-deps
 WORKDIR /app
 COPY . .
 COPY --from=assets /build/dist ./dist

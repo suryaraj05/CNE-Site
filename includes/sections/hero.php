@@ -6,26 +6,36 @@ $note      = $s['note'] ?? 'Reply within hours on working days · No-obligation 
 $img       = $quote ? null : ($s['image'] ?? null);
 $bg        = $s['background'] ?? null;
 $dark      = !empty($s['dark']) || $bg;
+$highlights = $s['highlights'] ?? ($quote ? [
+    ['icon' => 'shield', 'label' => 'Customs declarations'],
+    ['icon' => 'plane', 'label' => 'Air, sea & road freight'],
+    ['icon' => 'box', 'label' => 'End-to-end support'],
+] : []);
+$bgPos     = $s['background_position'] ?? ($quote && $bg ? '52% 34%' : '60% 45%');
 $layout    = match (true) {
-    $quote && $dark => 'grid min-w-0 items-center gap-12 py-14 sm:py-20 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,420px)] lg:gap-14 lg:py-20 xl:gap-16',
-    $quote          => 'grid min-w-0 items-center gap-12 pt-14 pb-14 sm:pt-20 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,420px)] lg:gap-14 lg:pt-20 xl:gap-16',
-    (bool) $img     => 'grid items-center gap-12 pt-12 pb-16 sm:pt-16 sm:pb-20 lg:grid-cols-2 lg:gap-16',
-    default         => 'pt-12 pb-16 sm:pt-16 sm:pb-20',
+    $quote && $dark => 'grid min-w-0 items-center gap-8 py-10 sm:gap-10 sm:py-12 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,24rem)] lg:gap-10 lg:py-14 xl:gap-14',
+    $quote          => 'grid min-w-0 items-center gap-8 pt-10 pb-12 sm:pt-12 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,24rem)] lg:gap-10 xl:gap-14',
+    (bool) $img     => 'grid items-start gap-8 pt-8 pb-10 sm:gap-10 sm:pt-10 sm:pb-12 lg:grid-cols-2 lg:gap-12 xl:gap-14',
+    default         => 'pt-10 pb-12 sm:pt-12 sm:pb-14',
 };
 ?>
     <section aria-labelledby="page-title" class="relative isolate overflow-hidden <?= $dark ? 'bg-ink' : 'bg-white' ?>">
 <?php if ($dark): ?>
 <?php if ($bg): ?>
-      <?= img_tag(is_string($bg) ? ['src' => $bg] : $bg, 'absolute inset-0 -z-20 size-full object-cover object-[57%_50%]', true) ?>
-      <div aria-hidden="true" class="absolute inset-0 -z-10 bg-[linear-gradient(105deg,rgba(26,31,46,0.94)_0%,rgba(26,45,110,0.88)_34%,rgba(36,62,149,0.45)_58%,rgba(36,62,149,0.12)_100%)] max-lg:bg-ink/85"></div>
+      <?php
+        $bgSrc = is_string($bg) ? $bg : ($bg['src'] ?? '');
+        $bgAlt = is_array($bg) ? ($bg['alt'] ?? '') : '';
+      ?>
+      <img src="<?= e($bgSrc) ?>" alt="<?= e($bgAlt) ?>" fetchpriority="high" decoding="async" class="absolute inset-0 -z-20 size-full object-cover" style="object-position: <?= e($bgPos) ?>">
+      <div aria-hidden="true" class="pointer-events-none absolute inset-0 -z-10 hero-bg-scrim"></div>
 <?php else: ?>
-      <div aria-hidden="true" class="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top_right,rgba(58,86,176,0.28),transparent_55%),radial-gradient(ellipse_at_bottom_left,rgba(255,255,255,0.08),transparent_50%)]"></div>
+      <div aria-hidden="true" class="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top_right,rgba(42,74,154,0.35),transparent_55%),radial-gradient(ellipse_at_bottom_left,rgba(255,255,255,0.08),transparent_50%)]"></div>
 <?php endif; ?>
 <?php endif; ?>
-      <div class="mx-auto max-w-7xl px-6 lg:px-10 <?= $layout ?>">
-        <div<?= reveal($quote || $img ? 'right' : 'up', 80) ?> class="<?= $quote || $img ? '' : 'max-w-3xl' ?><?= $bg ? ' [&>h1,&>p]:[text-shadow:0_1px_18px_rgba(12,18,57,0.75)]' : '' ?>">
+      <div class="shell <?= $layout ?>">
+        <div<?= reveal($quote || $img ? 'right' : 'up', 80) ?> class="<?= $quote || $img ? 'min-w-0' : 'max-w-3xl' ?>">
 <?php if ($page['breadcrumbs'] !== null): ?>
-          <nav aria-label="Breadcrumb" class="mb-8 text-[13px] <?= $dark ? 'text-white/70' : 'text-muted' ?>">
+          <nav aria-label="Breadcrumb" class="mb-5 text-[13px] sm:mb-6 <?= $dark ? 'text-white/70' : 'text-muted' ?>">
             <ol class="flex flex-wrap items-center gap-x-2 gap-y-1">
               <li><a href="/" class="transition-colors <?= $dark ? 'hover:text-white' : 'hover:text-navy' ?>">Home</a></li>
 <?php foreach ($page['breadcrumbs'] as [$label, $href]): ?>
@@ -38,30 +48,45 @@ $layout    = match (true) {
           </nav>
 <?php endif; ?>
 <?php if (!empty($s['eyebrow'])): ?>
-          <p class="text-[13px] font-medium <?= $dark ? 'text-white/75' : 'text-navy/80' ?>"><?= e($s['eyebrow']) ?></p>
-          <span aria-hidden="true" class="mt-3 block h-px w-9 <?= $dark ? 'bg-white/35' : 'bg-navy/35' ?>"></span>
+          <p class="eyebrow <?= $dark ? 'eyebrow-light' : '' ?>"><?= e($s['eyebrow']) ?></p>
 <?php endif; ?>
-          <h1 id="page-title" class="<?= !empty($s['eyebrow']) ? 'mt-5' : 'mt-4' ?> text-[2.5rem] leading-[1.08] font-bold tracking-[-0.03em] text-balance sm:text-5xl <?= $dark ? 'text-white' : 'text-ink' ?> <?= $quote ? 'lg:text-[3.5rem]' : 'lg:text-[3.25rem]' ?>"><?= e($s['title']) ?></h1>
+          <h1 id="page-title" class="<?= !empty($s['eyebrow']) ? 'mt-4' : 'mt-3' ?> <?= $quote ? 'heading-hero' : 'heading-section-lg' ?> max-w-xl <?= $dark ? 'text-white' : 'text-ink' ?>">
+            <?= titled($s['title'], $s['accent'] ?? null, '', $s['accent_mode'] ?? 'mark') ?>
+          </h1>
 <?php if (!empty($s['lead'])): ?>
-          <p class="mt-6 max-w-[36rem] text-lg leading-relaxed <?= $dark ? 'text-white/85' : 'text-muted' ?>"><?= e($s['lead']) ?></p>
+          <p class="lede mt-4 max-w-[34rem] <?= $dark ? 'text-white/85' : '' ?>"><?= e($s['lead']) ?></p>
+<?php endif; ?>
+
+<?php if ($highlights): ?>
+          <ul class="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-3 sm:gap-4 <?= $quote ? 'max-w-xl' : '' ?>">
+<?php foreach ($highlights as $h): ?>
+            <li class="flex min-w-0 items-center gap-2.5 sm:flex-col sm:items-start sm:gap-2.5">
+              <span class="inline-flex size-8 shrink-0 items-center justify-center rounded-full bg-lime/90 text-navy"><?= icon($h['icon'] ?? 'check', 'size-4') ?></span>
+              <span class="text-[13px] leading-snug font-semibold sm:text-sm <?= $dark ? 'text-white' : 'text-ink' ?>"><?= e($h['label']) ?></span>
+            </li>
+<?php endforeach; ?>
+          </ul>
 <?php endif; ?>
 
 <?php if ($primary || $secondary): ?>
-          <div class="mt-9 flex flex-wrap items-center gap-3">
+          <div class="<?= $img ? 'mt-7' : 'mt-9' ?> flex flex-wrap items-center gap-3">
 <?php if ($primary): ?>
             <a href="<?= e($primary[1]) ?>" class="btn <?= $dark ? 'btn-on-dark' : 'btn-primary' ?>">
               <?= e($primary[0]) ?> <?= icon('arrow-right', 'size-4') ?>
             </a>
 <?php endif; ?>
 <?php if ($secondary): ?>
-            <a href="<?= e($secondary[1]) ?>" class="btn <?= $dark ? 'btn-ghost' : 'btn-secondary' ?>"><?= e($secondary[0]) ?></a>
+            <a href="<?= e($secondary[1]) ?>" class="btn <?= $dark ? 'btn-ghost' : 'btn-secondary' ?>">
+<?php if (str_starts_with($secondary[1], 'tel:')): ?><?= icon('phone', 'size-4') ?><?php endif; ?>
+              <?= e($secondary[0]) ?>
+            </a>
 <?php endif; ?>
           </div>
 <?php endif; ?>
 
 <?php if ($note): ?>
-          <p class="mt-6 flex items-center gap-2 text-sm <?= $dark ? 'text-white/80' : 'text-muted' ?>">
-            <?= icon('check', 'size-4 shrink-0 ' . ($dark ? 'text-white' : 'text-navy')) ?>
+          <p class="mt-5 flex items-center gap-2 text-sm <?= $dark ? 'text-white/80' : 'text-muted' ?>">
+            <?= icon('check', 'size-4 shrink-0 ' . ($dark ? 'text-lime' : 'text-navy')) ?>
             <?= e($note) ?>
           </p>
 <?php endif; ?>
@@ -69,7 +94,13 @@ $layout    = match (true) {
 
 <?php if ($quote) require __DIR__ . '/../quote-card.php'; ?>
 <?php if ($img): ?>
-        <div<?= reveal('left', 160) ?>><?= img_tag($img, 'aspect-[4/3] w-full rounded-2xl object-cover', true) ?></div>
+        <div<?= reveal('left', 160) ?> class="relative lg:mt-1">
+          <div aria-hidden="true" class="absolute -right-2 -bottom-3 left-[14%] top-[18%] -z-10 rounded-br-[2rem] rounded-tr-[1.25rem] bg-navy-700 [clip-path:polygon(14%_0,100%_0,100%_100%,0_100%)] sm:-right-3 sm:-bottom-4"></div>
+          <div class="relative overflow-hidden rounded-br-[1.75rem] rounded-tr-[1rem] bg-mist [clip-path:polygon(12%_0,100%_0,100%_100%,0_100%)] sm:rounded-br-[2.25rem] sm:rounded-tr-[1.15rem]">
+            <?= img_tag($img, 'aspect-[5/4] w-full object-cover object-center lg:aspect-[4/3]', true) ?>
+          </div>
+          <span aria-hidden="true" class="absolute bottom-3 left-[8%] h-3 w-[36%] -skew-x-[18deg] rounded-sm bg-lime"></span>
+        </div>
 <?php endif; ?>
       </div>
     </section>

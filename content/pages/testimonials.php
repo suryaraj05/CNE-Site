@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Customer Testimonials & Reviews | Cargo Northeast',
-    'description' => 'Read what businesses and families say about Cargo Northeast - customs clearance, house moves and storage handled by our Newcastle team. Request a quote today.',
+    'title'       => 'Customer Testimonials | Cargo Northeast',
+    'description' => 'What businesses and families say about Cargo Northeast customs clearance, freight, house moves and storage in Newcastle. Request a quote.',
     'breadcrumbs' => [],
     'crumb'       => 'Testimonials',
     'sections'    => [

@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Contact Our Newcastle Customs & Freight Team | Cargo Northeast',
-    'description' => 'Contact Cargo Northeast at Freight Village, Newcastle Airport, or our Mumbai office. Call, email or send a message about customs clearance, freight or moving.',
+    'title'       => 'Contact Cargo Northeast | Newcastle & Mumbai',
+    'description' => 'Contact Cargo Northeast at Freight Village, Newcastle Airport, or our Mumbai office. Call, email or message us about customs clearance and freight.',
     'breadcrumbs' => [],
     'crumb'       => 'Contact',
     'sections'    => [

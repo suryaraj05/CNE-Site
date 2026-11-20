@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Customs Clearance at London Luton (LTN) | Cargo Northeast',
-    'description' => 'UK customs agents for London Luton Airport (LTN). Air freight plus import and export clearance through HMRC CDS, with duty, VAT and EORI guidance. Get a quote.',
+    'title'       => 'Customs Clearance Luton | UK Customs Agents | Cargo Northeast',
+    'description' => 'Reliable customs clearance in Luton for UK imports and exports. Cargo Northeast provides fast, compliant customs clearance services for businesses.',
     'breadcrumbs' => [['Airports', '/all-airports/']],
     'crumb'       => 'London Luton',
     'service'     => 'Customs clearance and air freight at London Luton Airport',

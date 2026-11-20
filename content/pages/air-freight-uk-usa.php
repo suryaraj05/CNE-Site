@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Air Freight UK to USA - Fast, Affordable | Cargo Northeast',
-    'description' => 'Affordable UK to USA air freight from Heathrow, Manchester and Birmingham to New York, Los Angeles, Chicago and Miami. Door-to-door, customs handled.',
+    'title'       => 'Air Freight UK to USA | Cargo Northeast',
+    'description' => 'Affordable UK to USA air freight via Heathrow, Manchester and Birmingham to New York, LA, Chicago and Miami. Door-to-door with customs support. Get a quote.',
     'breadcrumbs' => [['Global services', '/services/']],
     'crumb'       => 'Air freight UK – USA',
     'service'     => 'UK to USA air freight',

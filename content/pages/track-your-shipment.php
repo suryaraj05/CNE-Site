@@ -1,7 +1,7 @@
 <?php
 return [
     'title'       => 'Track Your Shipment | Cargo Northeast',
-    'description' => 'Track your Cargo Northeast air, sea or road shipment using your AWB, tracking or booking reference, or contact our team for a status update on your cargo.',
+    'description' => 'Track your Cargo Northeast air, sea or road shipment with your AWB, booking or tracking reference, or contact our team for a status update.',
     'breadcrumbs' => [],
     'crumb'       => 'Track your shipment',
     'sections'    => [

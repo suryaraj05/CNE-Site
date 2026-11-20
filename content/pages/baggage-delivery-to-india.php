@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Baggage Delivery to India from the UK | Cargo Northeast',
-    'description' => 'Door-to-door baggage delivery from the UK to India. Collection anywhere in the UK, customs clearance in the UK and India, and delivery to any Indian city.',
+    'title'       => 'Baggage Delivery UK to India | Cargo Northeast',
+    'description' => 'Door-to-door baggage delivery from the UK to India with collection, UK and India customs clearance, and delivery to any address. Get a quote today.',
     'breadcrumbs' => [['Our expertise', '/our-expertise/']],
     'crumb'       => 'Baggage delivery to India',
     'service'     => 'Baggage delivery from the UK to India',

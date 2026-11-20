@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Export Customs Clearance at Cardiff Airport | Cargo Northeast',
-    'description' => 'Export customs clearance and air freight from Cardiff Airport (CWL). CDS declarations, EORI checks, commodity codes and export VAT guidance. Get a quote.',
+    'title'       => 'Customs Clearance Exports Cardiff Airport | Cargo Northeast',
+    'description' => 'Customs clearance exports from Cardiff Airport, plus imports and air freight. Accurate HMRC declarations through CDS. Get a quote today.',
     'breadcrumbs' => [['Airports', '/all-airports/']],
     'crumb'       => 'Cardiff',
     'service'     => 'Export customs clearance and air freight from Cardiff Airport',

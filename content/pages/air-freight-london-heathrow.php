@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Heathrow Air Freight & Customs Clearance | Cargo Northeast',
-    'description' => 'Air freight into London Heathrow with full HMRC customs clearance through CDS, duty and VAT handled, and onward UK delivery. Request a Heathrow quote today.',
+    'title'       => 'Air Freight London Heathrow | Cargo Northeast Ltd.',
+    'description' => 'Reliable air freight to London via Heathrow. Cargo Northeast Ltd. helps with air cargo, Heathrow customs clearance, collection and UK delivery. Get a quote today.',
     'breadcrumbs' => [['Airports', '/all-airports/']],
     'crumb'       => 'London Heathrow',
     'service'     => 'Air freight and customs clearance at London Heathrow',

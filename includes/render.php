@@ -23,7 +23,8 @@ function render_page(array $page): void
     foreach ($page['sections'] as $s) {
         $band = in_array($s['type'], BAND_SECTIONS, true);
         if (!$band && !$inBody) {
-            echo '<div class="space-y-24 pt-16 pb-24 sm:space-y-28 sm:pt-20 sm:pb-28">';
+            /* Section vertical rhythm comes from .section-y on each block — avoid stacking space-y on top. */
+            echo '<div class="cne-body">';
             $inBody = true;
         } elseif ($band && $inBody) {
             echo '</div>';
@@ -65,6 +66,22 @@ function page_schema(array $page): array
             'description' => $page['description'],
             'provider'    => ['@id' => SITE_URL . '/#business'],
             'areaServed'  => ['@type' => 'Country', 'name' => 'United Kingdom'],
+        ];
+    }
+
+    // Homepage: primary service catalogue for SEO / rich results
+    if ($page['path'] === '/') {
+        $graph[] = [
+            '@type'            => 'ItemList',
+            '@id'              => SITE_URL . '/#services',
+            'name'             => 'Cargo Northeast logistics services',
+            'itemListElement'  => [
+                ['@type' => 'ListItem', 'position' => 1, 'name' => 'Customs clearance', 'url' => SITE_URL . '/customs-clearance-service-uk/'],
+                ['@type' => 'ListItem', 'position' => 2, 'name' => 'Air freight', 'url' => SITE_URL . '/all-airports/'],
+                ['@type' => 'ListItem', 'position' => 3, 'name' => 'Sea freight', 'url' => SITE_URL . '/sea-freight-newcastle-upon-tyne/'],
+                ['@type' => 'ListItem', 'position' => 4, 'name' => 'Road transport', 'url' => SITE_URL . '/road-transport-uk-eu/'],
+                ['@type' => 'ListItem', 'position' => 5, 'name' => 'Import from China', 'url' => SITE_URL . '/import-from-china/'],
+            ],
         ];
     }
 

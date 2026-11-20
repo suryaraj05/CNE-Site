@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Customs Clearance at East Midlands Airport | Cargo Northeast',
-    'description' => 'Customs clearance at East Midlands Airport (EMA) for air freight imports and exports. HMRC CDS declarations, EORI, duty and import VAT handled. Get a quote.',
+    'title'       => 'Customs Clearance East Midlands Airport | Cargo Northeast',
+    'description' => 'Professional customs clearance at East Midlands Airport for import and export shipments. Cargo Northeast provides reliable customs support and freight solutions.',
     'breadcrumbs' => [['Airports', '/all-airports/']],
     'crumb'       => 'East Midlands Airport',
     'service'     => 'Customs clearance at East Midlands Airport',

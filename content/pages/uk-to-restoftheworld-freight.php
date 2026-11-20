@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'UK to Rest of the World Freight - Air & Sea | Cargo Northeast',
-    'description' => 'International air and sea freight from the UK to the rest of the world: express and consolidated air, FCL and LCL sea, customs and insurance handled.',
+    'title'       => 'UK to Rest of World Freight | Cargo Northeast',
+    'description' => 'International air and sea freight from the UK worldwide: express and consolidated air, FCL/LCL sea, customs clearance and cargo insurance.',
     'breadcrumbs' => [['Global services', '/services/']],
     'crumb'       => 'UK to rest of the world',
     'service'     => 'International air and sea freight from the UK',

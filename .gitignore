@@ -5,7 +5,10 @@ current pdfs/
 ui/
 storage/inbox/**/*.json
 storage/overrides/*.json
+storage/seo-sitemap.xml
 
 _site/
 logo.jpg
 logo-removebg-preview.png
+.neon
+.env.local

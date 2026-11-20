@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Air Freight at London City Airport (LCY) | Cargo Northeast',
-    'description' => 'Urgent air freight and customs clearance at London City Airport (LCY), plus London Gateway port clearance. CDS declarations, duty, VAT and London delivery.',
+    'title'       => 'Air Freight Services at London City Airport | Cargo Northeast',
+    'description' => 'Air freight services at London City Airport (LCY) with customs clearance in London Gateway and import clearance to LCY. HMRC, CDS and EORI support.',
     'breadcrumbs' => [['Airports', '/all-airports/']],
     'crumb'       => 'London City (LCY)',
     'service'     => 'Air freight and customs clearance at London City Airport',

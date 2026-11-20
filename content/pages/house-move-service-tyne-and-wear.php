@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'House Removals in Tyne and Wear from £49 | Cargo Northeast',
-    'description' => 'House moves in Newcastle, Tyne and Wear, Durham and Sunderland from £49, and UK-wide from £99. Packing, furniture assembly and a personal move manager.',
+    'title'       => 'House Moves Tyne and Wear | Cargo Northeast',
+    'description' => 'House removals in Newcastle, Tyne and Wear, Durham and Sunderland, plus UK-wide moves. Packing, furniture help and a personal moving team. Get a quote.',
     'breadcrumbs' => [['Our expertise', '/our-expertise/']],
     'crumb'       => 'House move',
     'service'     => 'House removals in Tyne and Wear and North East England',

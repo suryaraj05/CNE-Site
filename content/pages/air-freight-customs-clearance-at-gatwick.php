@@ -1,7 +1,7 @@
 <?php
 return [
     'title'       => 'Air Freight Customs Clearance at Gatwick | Cargo Northeast',
-    'description' => 'Customs broker for London Gatwick Airport (LGW). Import clearance for air freight: HMRC CDS declarations, commodity codes, duty and VAT handled. Get a quote.',
+    'description' => 'Professional air freight customs clearance at Gatwick Airport. Cargo Northeast helps businesses with import customs clearance, documentation and customs procedures.',
     'breadcrumbs' => [['Airports', '/all-airports/']],
     'crumb'       => 'London Gatwick',
     'service'     => 'Air freight customs clearance at London Gatwick Airport',

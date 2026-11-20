@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Customs Clearance Services in Aberdeen | Cargo Northeast',
-    'description' => 'Customs clearance for Aberdeen importers and exporters, including air cargo through Aberdeen Airport (ABZ). CDS declarations, EORI, duty and VAT guidance.',
+    'title'       => 'Customs Clearance Services Aberdeen | Cargo Northeast Ltd.',
+    'description' => 'Expert customs clearance services Aberdeen from Cargo Northeast Ltd. Work with a trusted customs agent in Aberdeen for airport customs clearance, HMRC, CDS and EORI support. Get a quote today.',
     'breadcrumbs' => [['Airports', '/all-airports/']],
     'crumb'       => 'Aberdeen',
     'service'     => 'Customs clearance services in Aberdeen',

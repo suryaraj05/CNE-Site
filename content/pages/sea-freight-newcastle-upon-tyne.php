@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Sea Freight Imports & Exports, Newcastle | Cargo Northeast',
-    'description' => 'FCL and LCL sea freight for UK imports and exports via Port of Tyne, Teesport, Felixstowe, Southampton and Liverpool, with customs and door-to-door delivery.',
+    'title'       => 'Sea Freight Newcastle & UK Ports | Cargo Northeast',
+    'description' => 'FCL and LCL sea freight for UK imports and exports via Port of Tyne, Teesport, Felixstowe, Southampton and Liverpool, with customs and delivery.',
     'breadcrumbs' => [['Global services', '/services/']],
     'crumb'       => 'Sea freight',
     'service'     => 'Sea freight imports and exports',

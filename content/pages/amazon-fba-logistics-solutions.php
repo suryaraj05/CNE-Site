@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Amazon FBA Logistics & Prep Services UK | Cargo Northeast',
-    'description' => 'Amazon FBA logistics for UK sellers: product prep, FNSKU labelling, storage, inventory management and delivery to Amazon fulfilment centres across the UK and EU.',
+    'title'       => 'Amazon FBA Logistics UK | Cargo Northeast',
+    'description' => 'Amazon FBA prep, FNSKU labelling, storage and delivery to UK fulfilment centres. End-to-end logistics for Amazon sellers from Cargo Northeast. Get a quote.',
     'breadcrumbs' => [['Our expertise', '/our-expertise/']],
     'crumb'       => 'Amazon FBA',
     'service'     => 'Amazon FBA logistics and prep services',

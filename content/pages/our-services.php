@@ -1,9 +1,10 @@
 <?php
 return [
-    'title'       => 'Our Services - Customs & Freight UK & EU | Cargo Northeast',
-    'description' => 'Cargo Northeast services: customs clearance, air, sea and road freight, China to UK imports, Amazon FBA, baggage to India and China, house moves and storage.',
+    'title'       => 'Our Services — Customs Clearance & Freight UK | Cargo Northeast',
+    'description' => 'Explore Cargo Northeast services: UK customs clearance, air, sea and road freight, China imports, Amazon FBA, baggage delivery, house moves and storage.',
     'breadcrumbs' => [],
-    'crumb'       => 'Our services',
+    'crumb'       => 'Our Services',
+    'service'     => 'Customs clearance and freight forwarding services',
     'sections'    => [
         [
             'type'    => 'hero',

@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Cargo Customs Clearance at Edinburgh Airport | Cargo Northeast',
-    'description' => 'Import and export customs clearance for air cargo at Edinburgh Airport (EDI). HMRC CDS declarations, EORI, commodity codes, duty and VAT handled for you.',
+    'title'       => 'Cargo Customs Clearance Edinburgh Airport | Cargo Northeast',
+    'description' => 'Get reliable cargo customs clearance at Edinburgh Airport with Cargo Northeast Ltd. Expert import and export declarations, duty and VAT guidance, and freight forwarding support.',
     'breadcrumbs' => [['Airports', '/all-airports/']],
     'crumb'       => 'Edinburgh',
     'service'     => 'Cargo customs clearance at Edinburgh Airport',

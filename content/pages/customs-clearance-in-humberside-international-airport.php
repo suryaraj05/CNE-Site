@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Customs Clearance at Humberside Airport | Cargo Northeast',
-    'description' => 'Customs clearance and freight courier support at Humberside International Airport (HUY). Import and export declarations via HMRC CDS for urgent consignments.',
+    'title'       => 'Customs Clearance in Humberside Airport | Cargo Northeast',
+    'description' => 'Customs clearance in Humberside International Airport with Cargo Northeast. Import clearance, freight courier and export declarations. Get a quote today.',
     'breadcrumbs' => [['Airports', '/all-airports/']],
     'crumb'       => 'Humberside',
     'service'     => 'Customs clearance at Humberside International Airport',

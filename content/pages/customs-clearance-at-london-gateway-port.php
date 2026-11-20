@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Customs Clearance at London Gateway Port | Cargo Northeast',
-    'description' => 'Customs clearance and freight forwarding for containers at London Gateway port. HMRC CDS import and export declarations, EORI, duty and VAT. Get a quote.',
+    'title'       => 'Customs Clearance at London Gateway Port | Cargo Northeast Ltd.',
+    'description' => 'Reliable customs clearance at London Gateway Port with Cargo Northeast Ltd. Expert customs clearance agent and freight forwarding. Get a quote today.',
     'breadcrumbs' => [['UK seaports', '/all-seaports/']],
     'crumb'       => 'London Gateway',
     'service'     => 'Customs clearance at London Gateway Port',

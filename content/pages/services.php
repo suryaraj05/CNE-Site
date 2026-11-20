@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Global Logistics Services - Air, Sea & Road | Cargo Northeast',
-    'description' => 'Global logistics from Newcastle: China to UK imports, UK to USA air freight, sea freight, worldwide shipping, baggage to China and UK airport customs.',
+    'title'       => 'Global Services | Air, Sea & Road Freight | Cargo Northeast',
+    'description' => 'Global logistics from Newcastle: China to UK, UK to USA air freight, sea freight, worldwide shipping and baggage to China. Request a quote.',
     'breadcrumbs' => [],
     'crumb'       => 'Global services',
     'sections'    => [

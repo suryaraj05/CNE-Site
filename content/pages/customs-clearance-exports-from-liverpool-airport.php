@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Export Customs Clearance at Liverpool Airport | Cargo Northeast',
-    'description' => 'Export customs clearance and air freight from Liverpool John Lennon Airport (LPL). CDS export declarations, EORI checks and VAT relief guidance. Get a quote.',
+    'title'       => 'Export Customs Clearance Liverpool Airport | Cargo Northeast',
+    'description' => 'Customs clearance exports from Liverpool Airport with Cargo Northeast. Export declarations, documentation and air freight coordination. Get a quote today.',
     'breadcrumbs' => [['Airports', '/all-airports/']],
     'crumb'       => 'Liverpool',
     'service'     => 'Export customs clearance and air freight from Liverpool Airport',

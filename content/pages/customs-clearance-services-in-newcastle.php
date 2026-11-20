@@ -1,7 +1,7 @@
 <?php
 return [
     'title'       => 'Customs Clearance Services in Newcastle | Cargo Northeast',
-    'description' => 'Customs clearance and freight services in Newcastle, based at Newcastle Airport. Import and export declarations via HMRC CDS, EORI, duty and VAT. Get a quote.',
+    'description' => 'Customs clearance services in Newcastle from Cargo Northeast. Import and export clearance at Newcastle Airport plus freight services. Get a quote today.',
     'breadcrumbs' => [['Airports', '/all-airports/']],
     'crumb'       => 'Newcastle',
     'service'     => 'Customs clearance services in Newcastle',

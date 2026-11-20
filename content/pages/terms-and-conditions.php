@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Terms and Conditions | Cargo Northeast',
-    'description' => 'Cargo Northeast Ltd terms and conditions: carriage services, liability cover under BIFA trading conditions, exclusions, indemnity and cargo claim limits.',
+    'title'       => 'Terms and Conditions | Cargo Northeast Ltd',
+    'description' => 'Cargo Northeast Ltd terms of carriage, liability under BIFA conditions, exclusions, indemnity and cargo insurance information.',
     'breadcrumbs' => [],
     'crumb'       => 'Terms and conditions',
     'sections'    => [

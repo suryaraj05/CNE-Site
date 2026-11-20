@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Customs Clearance for Exports from Leeds | Cargo Northeast',
-    'description' => 'Export customs clearance from Leeds and Leeds Bradford Airport (LBA): CDS export declarations, EORI checks, VAT relief on exports and air freight. Get a quote.',
+    'title'       => 'Customs Clearance Exports from Leeds | Cargo Northeast',
+    'description' => 'Customs clearance exports from Leeds with Cargo Northeast. Export declarations, Export Clearance LBA and air freight from Leeds Bradford. Get a quote today.',
     'breadcrumbs' => [['Airports', '/all-airports/']],
     'crumb'       => 'Leeds Bradford',
     'service'     => 'Export customs clearance and air freight from Leeds Bradford Airport',

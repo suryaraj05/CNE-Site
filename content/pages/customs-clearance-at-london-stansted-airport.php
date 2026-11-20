@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Customs Clearance at London Stansted (STN) | Cargo Northeast',
-    'description' => 'Air freight customs clearance at London Stansted Airport (STN): import and export declarations via HMRC CDS for commercial, e-commerce and urgent cargo.',
+    'title'       => 'Customs Clearance at London Stansted Airport | Cargo Northeast',
+    'description' => 'Cargo Northeast provides customs clearance at London Stansted Airport for import and export shipments, helping businesses manage UK customs paperwork and procedures.',
     'breadcrumbs' => [['Airports', '/all-airports/']],
     'crumb'       => 'London Stansted',
     'service'     => 'Customs clearance at London Stansted Airport',

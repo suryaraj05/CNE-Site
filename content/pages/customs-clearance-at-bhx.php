@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Customs Clearance at BHX Birmingham Airport | Cargo Northeast',
-    'description' => 'Air freight customs clearance at Birmingham Airport (BHX). Import and export declarations to HMRC via CDS, EORI guidance and duty and VAT advice. Get a quote.',
+    'title'       => 'Customs Clearance at BHX | Birmingham Airport | Cargo Northeast',
+    'description' => 'Expert customs clearance at Birmingham Airport (BHX). Cargo Northeast handles import and export customs, documentation, duties and compliance for smooth cargo clearance.',
     'breadcrumbs' => [['Airports', '/all-airports/']],
     'crumb'       => 'Birmingham (BHX)',
     'service'     => 'Customs clearance at Birmingham Airport (BHX)',

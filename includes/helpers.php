@@ -84,6 +84,8 @@ function icon(string $name, string $class = 'size-5'): string
         'clipboard' => '<rect width="8" height="4" x="8" y="2" rx="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="m9 14 2 2 4-4"/>',
         'bell'      => '<path d="M10.27 21a2 2 0 0 0 3.46 0"/><path d="M3.26 15.33A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.67C19.41 13.96 18 12.5 18 8A6 6 0 0 0 6 8c0 4.5-1.41 5.96-2.74 7.33"/>',
         'tag'       => '<path d="M12.59 2.59A2 2 0 0 0 11.17 2H4a2 2 0 0 0-2 2v7.17a2 2 0 0 0 .59 1.42l8.7 8.7a2.43 2.43 0 0 0 3.42 0l6.58-6.58a2.43 2.43 0 0 0 0-3.42z"/><circle cx="7.5" cy="7.5" r="1"/>',
+        'megaphone' => '<path d="m3 11 19-5v12L3 13v-2z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/>',
+        'id-card'   => '<rect width="20" height="14" x="2" y="5" rx="2"/><path d="M22 10h-4M6 10h2M6 14h6"/><circle cx="16.5" cy="12.5" r="1.5"/>',
         'eye'       => '<path d="M2.06 12.35a1 1 0 0 1 0-.7 10.75 10.75 0 0 1 19.88 0 1 1 0 0 1 0 .7 10.75 10.75 0 0 1-19.88 0"/><circle cx="12" cy="12" r="3"/>',
         'target'    => '<circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>',
         'flag'      => '<path d="M4 22V4a1 1 0 0 1 .4-.8A6 6 0 0 1 8 2c3 0 5 2 7.33 2q2 0 3.67-1.33a1 1 0 0 1 1.6.8V15a1 1 0 0 1-.4.8A6 6 0 0 1 16 17c-3 0-5-2-8-2a6 6 0 0 0-4 1.53"/>',
@@ -113,20 +115,32 @@ function reveal(string $effect = 'up', int $delayMs = 0): string
     return ' data-reveal="' . e($effect) . '"' . ($delayMs > 0 ? ' style="--reveal-delay:' . $delayMs . 'ms"' : '');
 }
 
+/** Render title with optional accent phrase (`mark` background or `text` colour). */
+function titled(string $title, ?string $accent = null, string $class = '', string $accentMode = 'mark'): string
+{
+    if ($accent === null || $accent === '' || !str_contains($title, $accent)) {
+        return '<span class="' . e($class) . '">' . e($title) . '</span>';
+    }
+    $parts = explode($accent, $title, 2);
+    $accentClass = $accentMode === 'text' ? 'mark-text' : 'mark-lime';
+    return '<span class="' . e($class) . '">' . e($parts[0]) . '<span class="' . e($accentClass) . '">' . e($accent) . '</span>' . e($parts[1] ?? '') . '</span>';
+}
+
 /** Eyebrow + h2 + optional intro, shared by most sections. */
 function section_heading(array $s, string $align = 'left', bool $dark = false): void
 {
     $center = $align === 'center';
     echo '<div' . reveal('up') . ($center ? ' class="text-center"' : '') . '>';
     if (!empty($s['eyebrow'])) {
-        echo '<p class="text-[13px] font-medium ' . ($dark ? 'text-white/75' : 'text-navy/80') . '">' . e($s['eyebrow']) . '</p>';
-        echo '<span aria-hidden="true" class="mt-3 block h-px w-9 ' . ($dark ? 'bg-white/35' : 'bg-navy/35') . ($center ? ' mx-auto' : '') . '"></span>';
+        $eyebrowMuted = !empty($s['eyebrow_muted']) || (($s['id'] ?? '') === 'welcome');
+        echo '<p class="eyebrow' . ($dark ? ' eyebrow-light' : ($eyebrowMuted ? ' text-muted' : '')) . ($center ? ' justify-center' : '') . '">' . e($s['eyebrow']) . '</p>';
     }
     if (!empty($s['title'])) {
-        echo '<h2 class="' . (!empty($s['eyebrow']) ? 'mt-5' : '') . ' text-[2rem] leading-[1.15] font-bold tracking-[-0.03em] text-balance sm:text-[2.5rem] ' . ($dark ? 'text-white' : 'text-ink') . '">' . e($s['title']) . '</h2>';
+        $titleClass = (!empty($s['eyebrow']) ? 'mt-5 ' : '') . 'heading-section block' . ($dark ? ' text-white' : '');
+        echo '<h2>' . titled($s['title'], $s['accent'] ?? null, $titleClass) . '</h2>';
     }
     if (!empty($s['intro'])) {
-        echo '<p class="mt-4 max-w-2xl text-lg leading-relaxed text-pretty ' . ($dark ? 'text-white/80' : 'text-muted') . ($center ? ' mx-auto' : '') . '">' . e($s['intro']) . '</p>';
+        echo '<p class="lede mt-4 max-w-2xl' . ($dark ? ' text-white/80' : '') . ($center ? ' mx-auto' : '') . '">' . e($s['intro']) . '</p>';
     }
     echo '</div>';
 }

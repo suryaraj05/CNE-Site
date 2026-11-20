@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Privacy Policy | Cargo Northeast',
-    'description' => 'How Cargo Northeast Ltd collects, uses, shares and protects your personal information, how long we keep it, and the rights you have over your data.',
+    'title'       => 'Privacy Policy | Cargo Northeast Ltd',
+    'description' => 'How Cargo Northeast Ltd collects, uses and protects personal information, how long we keep it, and your rights under UK data protection law.',
     'breadcrumbs' => [],
     'crumb'       => 'Privacy policy',
     'sections'    => [

@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Locations: Newcastle, UK-Wide & India | Cargo Northeast',
-    'description' => 'Cargo Northeast operates from Newcastle Airport with an office in Mumbai, India, providing customs clearance and freight across North East England and the UK.',
+    'title'       => 'Locations: Airports, Seaports & Offices | Cargo Northeast',
+    'description' => 'Find Cargo Northeast customs clearance locations across UK airports and seaports, plus our Newcastle Airport and Mumbai offices.',
     'breadcrumbs' => [],
     'crumb'       => 'Locations',
     'sections'    => [
@@ -22,7 +22,7 @@ return [
             'title'   => 'From the North East to the world',
             'items'   => [
                 ['icon' => 'plane', 'title' => 'UK airports', 'text' => 'Air freight and customs clearance at Heathrow, Manchester, East Midlands, Gatwick and twelve more UK airports.', 'href' => '/all-airports/'],
-                ['icon' => 'anchor', 'title' => 'UK seaports', 'text' => 'Import customs clearance for sea freight arriving at London Gateway.', 'href' => '/all-seaports/'],
+                ['icon' => 'anchor', 'title' => 'UK seaports', 'text' => 'Import customs clearance for sea freight at Felixstowe, London Gateway, Southampton, Liverpool, Dover, Teesport and Port of Tyne.', 'href' => '/all-seaports/'],
                 ['icon' => 'map-pin', 'title' => 'Newcastle', 'text' => 'Import and export clearance from our base at Freight Village, Newcastle Airport.', 'href' => '/customs-clearance-services-in-newcastle/'],
                 ['icon' => 'building', 'title' => 'North East England', 'text' => 'A Newcastle-based customs and logistics company serving businesses across the region.', 'href' => '/customs-clearance-logistics-newcastle-northeast-england/'],
                 ['icon' => 'truck', 'title' => 'Scotland, the UK & EU', 'text' => 'Road transport connecting the UK and EU, with goods delivered securely and on time.', 'href' => '/road-transport-uk-eu/'],

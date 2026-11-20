@@ -5,6 +5,8 @@ primary_region = 'lhr'
 
 [env]
   PORT = '8080'
+  # Preview only — remove CNE_NOINDEX when pointing cargonortheast.com at this app.
+  CNE_NOINDEX = '1'
 
 [http_service]
   internal_port = 8080

@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Road Transport & Freight UK to EU | Cargo Northeast',
-    'description' => 'UK–EU road freight with post-Brexit customs clearance handled on both sides. FTL and LTL transport to France, Germany, Spain, the Netherlands and across the UK.',
+    'title'       => 'Road Transport UK to EU | Cargo Northeast',
+    'description' => 'UK–EU road freight with post-Brexit customs clearance. FTL and LTL to France, Germany, Spain, the Netherlands and more. Get a road freight quote.',
     'breadcrumbs' => [['Our expertise', '/our-expertise/']],
     'crumb'       => 'Road transport (UK & EU)',
     'service'     => 'Road transport between the UK and EU',

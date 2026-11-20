@@ -1,7 +1,7 @@
 <?php
 return [
     'title'       => 'Shipment Booking Form | Cargo Northeast',
-    'description' => 'Book a shipment with Cargo Northeast. Send sender, receiver, parcel and goods details so we can prepare your consignment and its customs paperwork.',
+    'description' => 'Book a shipment with Cargo Northeast. Submit sender, receiver and goods details so we can prepare your consignment and customs paperwork.',
     'breadcrumbs' => [],
     'crumb'       => 'Shipment form',
     'sections'    => [

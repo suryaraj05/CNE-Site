@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Our Expertise: Customs, Freight & Moves | Cargo Northeast',
-    'description' => 'Customs clearance, Amazon FBA, UK–EU road transport, India to UK freight, baggage to India, house moves and safe storage - all from one Newcastle-based team.',
+    'title'       => 'Our Expertise | Customs, Freight & Moves | Cargo Northeast',
+    'description' => 'Customs clearance, Amazon FBA, UK–EU road transport, India–UK freight, baggage delivery, house moves and storage — from one Newcastle logistics team.',
     'breadcrumbs' => [],
     'crumb'       => 'Our expertise',
     'sections'    => [

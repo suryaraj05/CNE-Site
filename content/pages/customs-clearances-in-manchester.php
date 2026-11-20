@@ -1,7 +1,7 @@
 <?php
 return [
-    'title'       => 'Customs Clearance & Air Freight in Manchester | Cargo Northeast',
-    'description' => 'Customs clearance in Manchester (MAN) for air freight imports and exports. HMRC CDS declarations, EORI, duty, import VAT and postponed VAT accounting handled.',
+    'title'       => 'Customs Clearance in Manchester | Cargo Northeast Ltd.',
+    'description' => 'Professional customs clearance in Manchester for import and export shipments. Cargo Northeast Ltd. provides practical customs and freight support for businesses.',
     'breadcrumbs' => [['Airports', '/all-airports/']],
     'crumb'       => 'Manchester',
     'service'     => 'Customs clearance and air freight in Manchester',
